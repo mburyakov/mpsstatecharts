@@ -7,51 +7,16 @@ import jetbrains.mps.scope.Scope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.scope.EmptyScope;
 import jetbrains.mps.lang.core.behavior.ScopeProvider_Behavior;
-import java.util.List;
-import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class TargetReference_Behavior {
   public static void init(SNode thisNode) {
   }
 
-  public static Scope virtual_getScope_3734116213129936182(SNode thisNode, SNode kind, SNode child) {
+  public static Scope virtual_getTargetRefScope_3233011721676204377(SNode thisNode, SNode kind, SNode child) {
     if (SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "state", false), "structure", true) == null) {
       return new EmptyScope();
+    } else {
+      return ScopeProvider_Behavior.call_getScope_3734116213129936182(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "state", false), "structure", true), kind, child);
     }
-    return ScopeProvider_Behavior.call_getScope_3734116213129936182(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "state", false), "structure", true), kind, child);
-  }
-
-  public static List<SNode> virtual_getScopeVariables_5067982036267369894(SNode thisNode) {
-    List<SNode> result = new ArrayList<SNode>();
-    for (SNode e : Sequence.fromIterable(ScopeProvider_Behavior.call_getScope_3734116213129936182(thisNode, SConceptOperations.findConceptDeclaration("statechart.structure.State"), null).getAvailableElements(null))) {
-      if (SConceptOperations.isSubConceptOf(SNodeOperations.getConceptDeclaration(e), "jetbrains.mps.lang.core.structure.INamedConcept")) {
-        ListSequence.fromList(result).addElement((SNode) e);
-      }
-    }
-    return result;
-  }
-
-  public static boolean call_toFinal_2747754268221296052(SNode thisNode) {
-    if (SNodeOperations.hasRole(thisNode, "statechart.structure.Transition", "from")) {
-      return true;
-    }
-    if (SNodeOperations.hasRole(thisNode, "statechart.structure.TargetReference", "next")) {
-      return TargetReference_Behavior.call_toFinal_2747754268221296052(((SNode) SNodeOperations.getParent(thisNode)));
-    }
-    return false;
-  }
-
-  public static boolean call_toInitial_2747754268221296760(SNode thisNode) {
-    if (SNodeOperations.hasRole(thisNode, "statechart.structure.Transition", "to")) {
-      return true;
-    }
-    if (SNodeOperations.hasRole(thisNode, "statechart.structure.TargetReference", "next")) {
-      return TargetReference_Behavior.call_toInitial_2747754268221296760(((SNode) SNodeOperations.getParent(thisNode)));
-    }
-    return false;
   }
 }

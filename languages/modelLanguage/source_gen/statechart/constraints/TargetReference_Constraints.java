@@ -18,11 +18,11 @@ import jetbrains.mps.scope.Scope;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.core.behavior.ScopeProvider_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.core.behavior.ScopeProvider_Behavior;
 
 public class TargetReference_Constraints extends BaseConstraintsDescriptor {
-  private static SNodePointer breakingNode_qs3fug_a0a2a0a0a1a0b0a1a0 = new SNodePointer("r:f4db0f39-a075-40ed-9830-3a9ef4504b0d(statechart.constraints)", "4406910735944463058");
+  private static SNodePointer breakingNode_qs3fug_a0a2a0a0a1a0b0a1a0 = new SNodePointer("r:f4db0f39-a075-40ed-9830-3a9ef4504b0d(statechart.constraints)", "3233011721676218485");
 
   public TargetReference_Constraints() {
     super("statechart.structure.TargetReference");
@@ -59,11 +59,24 @@ public class TargetReference_Constraints extends BaseConstraintsDescriptor {
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             {
-              SNode parent = _context.getEnclosingNode();
-              SNode scopeProvider = (SNodeOperations.isInstanceOf(parent, "statechart.structure.TargetReference") ?
-                (SNode) parent :
-                SNodeOperations.getAncestor(parent, "jetbrains.mps.lang.core.structure.ScopeProvider", false, false)
-              );
+              SNode scopeProvider = null;
+              boolean myExists = _context.getReferenceNode() == _context.getContextNode();
+              assert myExists == (_context.getContextNode() != _context.getEnclosingNode());
+              // todo: use exists 
+              if (myExists) {
+                if (SNodeOperations.hasRole(_context.getContextNode(), "statechart.structure.TargetRefDotExpression", "left")) {
+                  scopeProvider = SNodeOperations.getAncestor(SNodeOperations.getParent(_context.getContextNode()), "jetbrains.mps.lang.core.structure.ScopeProvider", false, false);
+                } else {
+                  scopeProvider = SNodeOperations.getAncestor(_context.getContextNode(), "jetbrains.mps.lang.core.structure.ScopeProvider", false, false);
+                }
+              } else {
+                // todo: use contextRole (if "left" then only ancsestor) 
+                if (SConceptOperations.isSubConceptOf(SNodeOperations.getConceptDeclaration(_context.getContextNode()), "jetbrains.mps.lang.core.structure.ScopeProvider")) {
+                  scopeProvider = SNodeOperations.cast(_context.getContextNode(), "jetbrains.mps.lang.core.structure.ScopeProvider");
+                } else {
+                  scopeProvider = SNodeOperations.getAncestor(_context.getContextNode(), "jetbrains.mps.lang.core.structure.ScopeProvider", false, false);
+                }
+              }
               return ScopeProvider_Behavior.call_getScope_3734116213129936182(scopeProvider, SConceptOperations.findConceptDeclaration("statechart.structure.State"), null);
             }
           }
