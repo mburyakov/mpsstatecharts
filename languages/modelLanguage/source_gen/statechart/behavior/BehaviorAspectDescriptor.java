@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"statechart.structure.Actor", "statechart.structure.BlockStatement", "statechart.structure.BooleanType", "statechart.structure.Channel", "statechart.structure.EmptyStatement", "statechart.structure.PrimitiveType", "statechart.structure.Scheme", "statechart.structure.State", "statechart.structure.Statechart", "statechart.structure.TargetReference", "statechart.structure.Transition", "statechart.structure.True"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"statechart.structure.Actor", "statechart.structure.BlockStatement", "statechart.structure.BooleanType", "statechart.structure.Channel", "statechart.structure.EmptyStatement", "statechart.structure.PrimitiveType", "statechart.structure.Scheme", "statechart.structure.State", "statechart.structure.Statechart", "statechart.structure.TargetRefDotExpression", "statechart.structure.TargetReference", "statechart.structure.Transition", "statechart.structure.True"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -24,9 +24,9 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Statechart_BehaviorDescriptor();
       case 7:
         return new State_BehaviorDescriptor();
-      case 10:
-        return new Transition_BehaviorDescriptor();
       case 11:
+        return new Transition_BehaviorDescriptor();
+      case 12:
         return new True_BehaviorDescriptor();
       case 1:
         return new BlockStatement_BehaviorDescriptor();
@@ -36,8 +36,10 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new BooleanType_BehaviorDescriptor();
       case 4:
         return new EmptyStatement_BehaviorDescriptor();
-      case 9:
+      case 10:
         return new TargetReference_BehaviorDescriptor();
+      case 9:
+        return new TargetRefDotExpression_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

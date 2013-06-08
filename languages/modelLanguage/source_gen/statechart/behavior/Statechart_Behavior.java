@@ -13,6 +13,9 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.core.behavior.ScopeProvider_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class Statechart_Behavior {
   public static void init(SNode thisNode) {
@@ -33,5 +36,93 @@ public class Statechart_Behavior {
       }
     }
     return result;
+  }
+
+  public static List<SNode> call_mySimpleStates_2747754268221231852(SNode thisNode) {
+    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "states", true)).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SLinkOperations.getTarget(it, "structure", true) == null;
+      }
+    }).toListSequence();
+  }
+
+  public static List<SNode> call_myComplexStates_2747754268221231933(SNode thisNode) {
+    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "states", true)).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SLinkOperations.getTarget(it, "structure", true) != null;
+      }
+    }).toListSequence();
+  }
+
+  public static List<SNode> call_simpleStates_2747754268221231605(SNode thisNode) {
+    return ListSequence.fromList(Statechart_Behavior.call_mySimpleStates_2747754268221231852(thisNode)).concat(ListSequence.fromList(Statechart_Behavior.call_myComplexStates_2747754268221231933(thisNode)).translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode it) {
+        return Statechart_Behavior.call_simpleStates_2747754268221231605(SLinkOperations.getTarget(it, "structure", true));
+      }
+    })).toListSequence();
+  }
+
+  public static List<SNode> call_complexStates_2747754268221235094(SNode thisNode) {
+    return ListSequence.fromList(Statechart_Behavior.call_myComplexStates_2747754268221231933(thisNode)).concat(ListSequence.fromList(Statechart_Behavior.call_myComplexStates_2747754268221231933(thisNode)).translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode it) {
+        return Statechart_Behavior.call_complexStates_2747754268221235094(SLinkOperations.getTarget(it, "structure", true));
+      }
+    })).toListSequence();
+  }
+
+  public static List<SNode> call_myInitialStates_2747754268221309465(SNode thisNode) {
+    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "states", true)).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SPropertyOperations.getBoolean(it, "isInitial");
+      }
+    }).toListSequence();
+  }
+
+  public static List<SNode> call_myFinalStates_2747754268221309491(SNode thisNode) {
+    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "states", true)).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SPropertyOperations.getBoolean(it, "isFinal");
+      }
+    }).toListSequence();
+  }
+
+  public static SNode call_mySingleInitial_2747754268221309519(SNode thisNode) {
+    List<SNode> mfs = Statechart_Behavior.call_myInitialStates_2747754268221309465(thisNode);
+    if ((int) ListSequence.fromList(mfs).count() == 1) {
+      return ListSequence.fromList(mfs).getElement(0);
+    } else {
+      return null;
+    }
+  }
+
+  public static SNode call_mySingleFinal_2747754268221309668(SNode thisNode) {
+    List<SNode> mfs = Statechart_Behavior.call_myFinalStates_2747754268221309491(thisNode);
+    if ((int) ListSequence.fromList(mfs).count() == 1) {
+      return ListSequence.fromList(mfs).getElement(0);
+    } else {
+      return null;
+    }
+  }
+
+  public static SNode call_singleInitial_2747754268221309514(SNode thisNode) {
+    SNode msf = Statechart_Behavior.call_mySingleInitial_2747754268221309519(thisNode);
+    return (msf == null ?
+      null :
+      (SLinkOperations.getTarget(msf, "structure", true) == null ?
+        msf :
+        Statechart_Behavior.call_singleInitial_2747754268221309514(SLinkOperations.getTarget(msf, "structure", true))
+      )
+    );
+  }
+
+  public static SNode call_singleFinal_2747754268221309910(SNode thisNode) {
+    SNode msf = Statechart_Behavior.call_mySingleFinal_2747754268221309668(thisNode);
+    return (msf == null ?
+      null :
+      (SLinkOperations.getTarget(msf, "structure", true) == null ?
+        msf :
+        Statechart_Behavior.call_singleFinal_2747754268221309910(SLinkOperations.getTarget(msf, "structure", true))
+      )
+    );
   }
 }

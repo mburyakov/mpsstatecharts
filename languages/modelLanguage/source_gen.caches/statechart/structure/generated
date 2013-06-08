@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-bylt03lgd3uolylqjjkarz3u0xhe77a">
+<dependencies version="2" modelHash="8u8zg3lzf56ksn1klkoyqtjvfdaborz">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -12,6 +12,7 @@
   <common hash="-3hh9h93725fqdcrkwk51mcdh1yimfrl">
     <dep root="2729323042005260843" />
     <dep root="2729323042005428722" />
+    <dep root="2747754268221321268" />
     <dep root="312414440130931896" />
     <dep root="312414440130979984" />
     <dep root="312414440130980010" />
@@ -52,7 +53,7 @@
   <source id="312414440130979984" name="State" hash="1q20g0bm5nr6r9xnm2tvndfl2yftrht">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="312414440130980010" name="Transition" hash="6zw945yti098orv028fh2tymtb34mjx">
+  <source id="312414440130980010" name="Transition" hash="57qyv7czbc9uslw18dg3hmpi7ratij8">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4014215078327270714" name="IValidIdentifier" hash="-dz3d6mle72i3fueiufdmzlbcj6qs8vj">
@@ -79,7 +80,10 @@
   <source id="6207949991003549630" name="EmptyStatement" hash="-9aahdzz6n23v1glg5lu2q3how2u5neo">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4406910735944317017" name="TargetReference" hash="-9paiu4n2lttmx0wm8fmn8y1lpegwzud">
+  <source id="4406910735944317017" name="TargetReference" hash="-csqa3gkrdrskq2b2z0tm0oqudln9tom">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="2747754268221321268" name="TargetRefDotExpression" hash="-eplt8v18zkfg4tiqpprxdnuvvkh1m03">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

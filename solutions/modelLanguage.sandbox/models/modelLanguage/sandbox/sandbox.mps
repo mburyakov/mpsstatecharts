@@ -18,25 +18,25 @@
           <node role="from" roleId="e8us.4406910735944328453" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2023328696140608711">
             <link role="state" roleId="e8us.4406910735944328454" targetNodeId="2023328696140608706" resolveInfo="idle" />
           </node>
-          <node role="to" roleId="e8us.4406910735944328914" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2023328696140776882">
+          <node role="to" roleId="e8us.4406910735944328914" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2747754268221312373">
             <link role="state" roleId="e8us.4406910735944328454" targetNodeId="2023328696140608707" resolveInfo="busy" />
-            <node role="next" roleId="e8us.4406910735944349203" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2335781540869217408">
+            <node role="next" roleId="e8us.4406910735944349203" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2747754268221312376">
               <link role="state" roleId="e8us.4406910735944328454" targetNodeId="2023328696140608724" resolveInfo="receiving" />
             </node>
           </node>
         </node>
-        <node role="transitions" roleId="e8us.312414440130980017" type="e8us.Transition" typeId="e8us.312414440130980010" id="2023328696140608716">
+        <node role="transitions" roleId="e8us.312414440130980017" type="e8us.Transition" typeId="e8us.312414440130980010" id="2747754268221312378">
           <property name="name" nameId="tpck.1169194664001" value="stop" />
-          <node role="condition" roleId="e8us.4965811635370469036" type="e8us.True" typeId="e8us.4965811635370463886" id="2023328696140608721" />
-          <node role="action" roleId="e8us.4965811635370469037" type="e8us.EmptyStatement" typeId="e8us.6207949991003549630" id="2023328696140608722" />
-          <node role="from" roleId="e8us.4406910735944328453" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2023328696140608719">
-            <link role="state" roleId="e8us.4406910735944328454" targetNodeId="2023328696140608707" resolveInfo="busy" />
-            <node role="next" roleId="e8us.4406910735944349203" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2023328696140917372">
-              <link role="state" roleId="e8us.4406910735944328454" targetNodeId="2023328696140608747" resolveInfo="closed" />
-            </node>
-          </node>
-          <node role="to" roleId="e8us.4406910735944328914" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2023328696140608720">
+          <node role="condition" roleId="e8us.4965811635370469036" type="e8us.True" typeId="e8us.4965811635370463886" id="2747754268221312382" />
+          <node role="action" roleId="e8us.4965811635370469037" type="e8us.EmptyStatement" typeId="e8us.6207949991003549630" id="2747754268221312383" />
+          <node role="to" roleId="e8us.4406910735944328914" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2747754268221312384">
             <link role="state" roleId="e8us.4406910735944328454" targetNodeId="2023328696140608706" resolveInfo="idle" />
+          </node>
+          <node role="from" roleId="e8us.4406910735944328453" type="e8us.TargetRefDotExpression" typeId="e8us.2747754268221321268" id="2747754268221333291">
+            <node role="left" roleId="e8us.2747754268221321269" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2747754268221333292">
+              <link role="state" roleId="e8us.4406910735944328454" targetNodeId="2023328696140608707" resolveInfo="busy" />
+            </node>
+            <node role="right" roleId="e8us.2747754268221321270" type="e8us.TargetReference" typeId="e8us.4406910735944317017" id="2747754268221333293" />
           </node>
         </node>
         <node role="states" roleId="e8us.312414440130980016" type="e8us.State" typeId="e8us.312414440130979984" id="2023328696140608706">
@@ -97,6 +97,8 @@
             </node>
             <node role="states" roleId="e8us.312414440130980016" type="e8us.State" typeId="e8us.312414440130979984" id="2023328696140608728">
               <property name="name" nameId="tpck.1169194664001" value="sending" />
+              <property name="isFinal" nameId="e8us.4965811635370369554" value="true" />
+              <property name="isInitial" nameId="e8us.4965811635370369553" value="false" />
             </node>
             <node role="states" roleId="e8us.312414440130980016" type="e8us.State" typeId="e8us.312414440130979984" id="2023328696140608747">
               <property name="name" nameId="tpck.1169194664001" value="closed" />
