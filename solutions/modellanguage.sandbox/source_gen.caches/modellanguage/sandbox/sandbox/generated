@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="c4n87ere1hvhd182bwdv4q6lh39e7kq">
+  <dep model="r:232915bf-7755-4eca-967d-f25f17e5f67e(statechart.structure)" hash="-avs0n92y6e2z5dmmz96u5t13ywkuw9d" />
+  <dep model="r:8a7b3a80-b470-428c-bbf6-44edb75615fe(statechart.generator.template.main@generator)" hash="dmdhxw60vf0dj1xlahbpg82u2hnadzc" />
+  <common hash="cecvs6m6ibbjsgtzt1vweitr9xrnlvz" />
+  <source id="2023328696140608703" hash="4kl7b1qd9kxfyu5wi5n11hmrpahho59">
+    <dep model="r:232915bf-7755-4eca-967d-f25f17e5f67e(statechart.structure)" />
+    <dep model="r:8a7b3a80-b470-428c-bbf6-44edb75615fe(statechart.generator.template.main@generator)" />
+    <file name="null.hs" />
+  </source>
+</dependencies>
+
