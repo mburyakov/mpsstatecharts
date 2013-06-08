@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="2023328696140608703" modelId="r:796937df-46c6-435d-bdea-7304e72da6bf(modelLanguage.sandbox.sandbox)">
+    <scopeInfo nodeId="2023328696140608732" fileName="null.hs" startLine="11" startPosition="31" endLine="11" endPosition="31" />
+    <scopeInfo nodeId="2023328696140608734" fileName="null.hs" startLine="11" startPosition="34" endLine="11" endPosition="34" />
+    <scopeInfo nodeId="2023328696140608740" fileName="null.hs" startLine="12" startPosition="31" endLine="12" endPosition="31" />
+    <scopeInfo nodeId="2023328696140608741" fileName="null.hs" startLine="12" startPosition="34" endLine="12" endPosition="34" />
+    <scopeInfo nodeId="2023328696140776871" fileName="null.hs" startLine="13" startPosition="31" endLine="13" endPosition="31" />
+    <scopeInfo nodeId="2023328696140776872" fileName="null.hs" startLine="13" startPosition="34" endLine="13" endPosition="34" />
+    <scopeInfo nodeId="2023328696140776878" fileName="null.hs" startLine="14" startPosition="31" endLine="14" endPosition="31" />
+    <scopeInfo nodeId="2023328696140776879" fileName="null.hs" startLine="14" startPosition="34" endLine="14" endPosition="34" />
+    <scopeInfo nodeId="2023328696140608711" fileName="null.hs" startLine="17" startPosition="31" endLine="17" endPosition="31" />
+    <scopeInfo nodeId="2023328696140776882" fileName="null.hs" startLine="17" startPosition="34" endLine="17" endPosition="35">
+      <varInfo nodeId="2023328696140608747" varName="closed" />
+      <varInfo nodeId="2023328696140608724" varName="receiving" />
+      <varInfo nodeId="2023328696140608728" varName="sending" />
+    </scopeInfo>
+    <scopeInfo nodeId="2023328696140917373" fileName="null.hs" startLine="17" startPosition="35" endLine="17" endPosition="35" />
+    <scopeInfo nodeId="2023328696140608719" fileName="null.hs" startLine="18" startPosition="31" endLine="18" endPosition="32">
+      <varInfo nodeId="2023328696140608747" varName="closed" />
+      <varInfo nodeId="2023328696140608724" varName="receiving" />
+      <varInfo nodeId="2023328696140608728" varName="sending" />
+    </scopeInfo>
+    <scopeInfo nodeId="2023328696140917372" fileName="null.hs" startLine="18" startPosition="32" endLine="18" endPosition="32" />
+    <scopeInfo nodeId="2023328696140608720" fileName="null.hs" startLine="18" startPosition="35" endLine="18" endPosition="35" />
+    <scopeInfo nodeId="2023328696140608723" fileName="null.hs" startLine="6" startPosition="36" endLine="15" endPosition="1">
+      <varInfo nodeId="2023328696140608747" varName="closed" />
+      <varInfo nodeId="2023328696140608724" varName="receiving" />
+      <varInfo nodeId="2023328696140608728" varName="sending" />
+    </scopeInfo>
+    <scopeInfo nodeId="2023328696140608705" fileName="null.hs" startLine="4" startPosition="8" endLine="19" endPosition="1">
+      <varInfo nodeId="2023328696140608707" varName="busy" />
+      <varInfo nodeId="2023328696140608706" varName="idle" />
+    </scopeInfo>
+  </root>
+</debugInfo>
+

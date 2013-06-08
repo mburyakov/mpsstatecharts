@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(modelLanguage.structure)" version="-1" />
+    </dependencies>
+    <rename id="e8us.4888388608963518236" type="CONCEPT" from="Call" to="Channel" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(modelLanguage.structure)" version="0" />
+    </dependencies>
+    <rename id="e8us.2729323042005260843" type="CONCEPT" from="RootDiagram" to="Scheme" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(modelLanguage.structure)" version="1" />
+    </dependencies>
+    <rename id="e8us.312414440130931896" type="CONCEPT" from="StateChart" to="Statechart" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(modelLanguage.structure)" version="2" />
+    </dependencies>
+    <rename id="e8us.4965811635370443974" type="CONCEPT" from="PureExpression" to="IPureExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(modelLanguage.structure)" version="3" />
+    </dependencies>
+    <rename id="e8us.4014215078327270714" type="CONCEPT" from="Identifier" to="IValidIdentifier" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(modelLanguage.structure)" version="4" />
+    </dependencies>
+    <rename id="e8us.4965811635370463903" type="CONCEPT" from="Statement" to="IStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="f04d" modelUID="r:e6a765dc-46f7-4f35-8d28-f25228a1f0e6(modelLanguage.editor)" version="-1" />
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(modelLanguage.structure)" version="5" />
+      <model index="hcye" modelUID="r:e6b49452-7c70-4713-9029-6c9dda75fe0a(modelLanguage.typesystem)" version="-1" />
+      <model index="eypz" modelUID="r:f4db0f39-a075-40ed-9830-3a9ef4504b0d(modelLanguage.constraints)" version="-1" />
+      <model index="3vle" modelUID="r:191d7ac1-727b-48fc-a5e8-c54590b978ca(modelLanguage.behavior)" version="-1" />
+      <model index="a2bw" modelUID="r:74fdc43c-8809-40ee-8722-988b69f3e315(modelLanguage.actions)" version="-1" />
+      <model index="tauh" modelUID="r:07ef3f30-655c-4070-9d96-4a8b3e10dde2(modelLanguage.intentions)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:e6a765dc-46f7-4f35-8d28-f25228a1f0e6(modelLanguage.editor)" newModel="r:e6a765dc-46f7-4f35-8d28-f25228a1f0e6(statecharts.editor)" />
+    <RenameModel oldModel="r:191d7ac1-727b-48fc-a5e8-c54590b978ca(modelLanguage.behavior)" newModel="r:191d7ac1-727b-48fc-a5e8-c54590b978ca(statecharts.behavior)" />
+    <RenameModel oldModel="r:07ef3f30-655c-4070-9d96-4a8b3e10dde2(modelLanguage.intentions)" newModel="r:07ef3f30-655c-4070-9d96-4a8b3e10dde2(statecharts.intentions)" />
+    <RenameModel oldModel="r:74fdc43c-8809-40ee-8722-988b69f3e315(modelLanguage.actions)" newModel="r:74fdc43c-8809-40ee-8722-988b69f3e315(statecharts.actions)" />
+    <RenameModel oldModel="r:e6b49452-7c70-4713-9029-6c9dda75fe0a(modelLanguage.typesystem)" newModel="r:e6b49452-7c70-4713-9029-6c9dda75fe0a(statecharts.typesystem)" />
+    <RenameModel oldModel="r:f4db0f39-a075-40ed-9830-3a9ef4504b0d(modelLanguage.constraints)" newModel="r:f4db0f39-a075-40ed-9830-3a9ef4504b0d(statecharts.constraints)" />
+    <RenameModel oldModel="r:232915bf-7755-4eca-967d-f25f17e5f67e(modelLanguage.structure)" newModel="r:232915bf-7755-4eca-967d-f25f17e5f67e(statecharts.structure)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="f04d" modelUID="r:e6a765dc-46f7-4f35-8d28-f25228a1f0e6(statecharts.editor)" version="0" />
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(statecharts.structure)" version="6" />
+      <model index="hcye" modelUID="r:e6b49452-7c70-4713-9029-6c9dda75fe0a(statecharts.typesystem)" version="0" />
+      <model index="eypz" modelUID="r:f4db0f39-a075-40ed-9830-3a9ef4504b0d(statecharts.constraints)" version="0" />
+      <model index="3vle" modelUID="r:191d7ac1-727b-48fc-a5e8-c54590b978ca(statecharts.behavior)" version="0" />
+      <model index="a2bw" modelUID="r:74fdc43c-8809-40ee-8722-988b69f3e315(statecharts.actions)" version="0" />
+      <model index="tauh" modelUID="r:07ef3f30-655c-4070-9d96-4a8b3e10dde2(statecharts.intentions)" version="0" />
+    </dependencies>
+    <RenameModel oldModel="r:e6a765dc-46f7-4f35-8d28-f25228a1f0e6(statecharts.editor)" newModel="r:e6a765dc-46f7-4f35-8d28-f25228a1f0e6(statechart.editor)" />
+    <RenameModel oldModel="r:191d7ac1-727b-48fc-a5e8-c54590b978ca(statecharts.behavior)" newModel="r:191d7ac1-727b-48fc-a5e8-c54590b978ca(statechart.behavior)" />
+    <RenameModel oldModel="r:07ef3f30-655c-4070-9d96-4a8b3e10dde2(statecharts.intentions)" newModel="r:07ef3f30-655c-4070-9d96-4a8b3e10dde2(statechart.intentions)" />
+    <RenameModel oldModel="r:74fdc43c-8809-40ee-8722-988b69f3e315(statecharts.actions)" newModel="r:74fdc43c-8809-40ee-8722-988b69f3e315(statechart.actions)" />
+    <RenameModel oldModel="r:e6b49452-7c70-4713-9029-6c9dda75fe0a(statecharts.typesystem)" newModel="r:e6b49452-7c70-4713-9029-6c9dda75fe0a(statechart.typesystem)" />
+    <RenameModel oldModel="r:f4db0f39-a075-40ed-9830-3a9ef4504b0d(statecharts.constraints)" newModel="r:f4db0f39-a075-40ed-9830-3a9ef4504b0d(statechart.constraints)" />
+    <RenameModel oldModel="r:232915bf-7755-4eca-967d-f25f17e5f67e(statecharts.structure)" newModel="r:232915bf-7755-4eca-967d-f25f17e5f67e(statechart.structure)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e8us" modelUID="r:232915bf-7755-4eca-967d-f25f17e5f67e(statechart.structure)" version="7" />
+    </dependencies>
+    <rename id="e8us.4406910735944328453" type="CHILD" from="fromPath" to="from" />
+  </StructureModification>
+</history>
+

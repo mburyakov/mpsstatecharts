@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="52mu" modelUID="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" version="-1" />
+    </dependencies>
+    <rename id="52mu.6207949991003558037" type="CONCEPT" from="DeleteMe" to="UnspecifiedConcept" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="52mu" modelUID="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" version="0" />
+    </dependencies>
+    <rename id="52mu.6207949991003565745" type="PROPERTY" from="isUnsigned" to="isSigned" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="52mu" modelUID="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" version="1" />
+    </dependencies>
+    <rename id="52mu.7906740086253320409" type="CONCEPT" from="Boole" to="BooleanConstant" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="52mu" modelUID="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" version="2" />
+    </dependencies>
+    <rename id="52mu.7906740086253319062" type="CONCEPT" from="IntegerLiteral" to="IntegerConstant" />
+  </StructureModification>
+</history>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="36" endPosition="0" unitName="smv.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BooleanConstant_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.BooleanConstant_BehaviorDescriptor" />
+  <unitInfo fileName="BooleanType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.BooleanType_BehaviorDescriptor" />
+  <unitInfo fileName="IConstant_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="smv.behavior.IConstant_BehaviorDescriptor" />
+  <unitInfo fileName="IIntegerLiteral_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="smv.behavior.IIntegerLiteral_BehaviorDescriptor" />
+  <unitInfo fileName="IValidIdentifier_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="smv.behavior.IValidIdentifier_BehaviorDescriptor" />
+  <unitInfo fileName="IntegerConstant_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.IntegerConstant_BehaviorDescriptor" />
+  <unitInfo fileName="PrimitiveType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.PrimitiveType_BehaviorDescriptor" />
+  <unitInfo fileName="SymbolicConstant_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="smv.behavior.SymbolicConstant_BehaviorDescriptor" />
+  <unitInfo fileName="UnspecifiedConcept_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.UnspecifiedConcept_BehaviorDescriptor" />
+  <unitInfo fileName="WordConstant_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.WordConstant_BehaviorDescriptor" />
+  <unitInfo fileName="WordType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.WordType_BehaviorDescriptor" />
+</debugInfo>
+
