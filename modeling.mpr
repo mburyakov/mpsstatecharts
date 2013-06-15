@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="${project}/languages/modelLanguage/modelLanguage.mpl" folder="dcn.statechart" />
+      <modulePath path="${project}/languages/promela/promela.mpl" folder="dcn.promela" />
+      <modulePath path="${project}/languages/smv/smv.mpl" folder="dcn.smv" />
+      <modulePath path="${project}/solutions/modelLanguage.sandbox/modelLanguage.sandbox.msd" folder="dcn.statechart" />
+      <modulePath path="${project}/solutions/smv.sandbox/smv.sandbox.msd" folder="dcn.smv" />
+    </projectModules>
+    <genConfs />
+  </component>
+  <component name="ProjectRootManager" version="2" />
+  <component name="ProjectVersion">
+    <option name="version" value="2.5" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+</project>
+
