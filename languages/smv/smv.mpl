@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="smv" uuid="3d78b626-9ef8-499b-9c87-0c2eca515a31" doNotGenerateAdapters="true">
+<language namespace="smv" uuid="3d78b626-9ef8-499b-9c87-0c2eca515a31">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="languageModels" />
+    </modelRoot>
   </models>
   <accessoryModels />
   <generators />

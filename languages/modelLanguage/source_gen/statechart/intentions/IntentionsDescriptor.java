@@ -4,16 +4,17 @@ package statechart.intentions;
 
 import jetbrains.mps.intentions.BaseIntentionsDescriptor;
 import jetbrains.mps.project.structure.modules.ModuleReference;
-import jetbrains.mps.smodel.SModelReference;
+import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
+import jetbrains.mps.intentions.IntentionsManager;
 
 public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   public IntentionsDescriptor() {
-    super(new ModuleReference("statechart", "19abcaab-5b93-450a-98af-c06bd2c1c087"), SModelReference.fromString("r:07ef3f30-655c-4070-9d96-4a8b3e10dde2(statechart.intentions)"));
+    super(new ModuleReference("19abcaab-5b93-450a-98af-c06bd2c1c087(statechart)"), PersistenceFacade.getInstance().createModelReference("r:07ef3f30-655c-4070-9d96-4a8b3e10dde2(statechart.intentions)"));
   }
 
   public void init() {
-    add(new AddFinalModifier_Intention(), "4965811635370418635");
-    add(new AddInitialModifier_Intention(), "4965811635370418231");
-    add(new SetComposite_Intention(), "4965811635370428368");
+    IntentionsManager.getInstance().registerIntentionFactory(new AddFinalModifier_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new AddInitialModifier_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SetComposite_Intention());
   }
 }

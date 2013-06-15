@@ -4,7 +4,7 @@ package statechart.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.scope.Scope;
-import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.model.SNode;
 
 public abstract class TargetRefExpression_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public TargetRefExpression_BehaviorDescriptor() {
@@ -16,4 +16,8 @@ public abstract class TargetRefExpression_BehaviorDescriptor extends BaseConcept
   }
 
   public abstract Scope virtual_getTargetRefScope_3233011721676204377(SNode thisNode, SNode kind, SNode child);
+
+  public abstract SNode virtual_getEndPointState_1955678301119751738(SNode thisNode);
+
+  public abstract boolean virtual_isEndPoint_1955678301119752454(SNode thisNode);
 }

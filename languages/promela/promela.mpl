@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="promela" uuid="ecfc20d8-2d11-407d-abf2-e281cc27b64c" doNotGenerateAdapters="true">
+<language namespace="promela" uuid="ecfc20d8-2d11-407d-abf2-e281cc27b64c">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="languageModels" />
+    </modelRoot>
   </models>
   <accessoryModels />
   <generators />
