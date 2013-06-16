@@ -12,23 +12,26 @@ public class Statechart_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.append("Machine $ mkGraph [");
     this.increaseDepth();
-    this.appendNewLine();
+    this.increaseDepth();
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "states", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "states", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
     this.decreaseDepth();
+    this.appendNewLine();
+    this.indentBuffer();
     this.append("] [");
     this.increaseDepth();
-    this.appendNewLine();
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "transitions", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "transitions", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
     this.decreaseDepth();
+    this.appendNewLine();
+    this.indentBuffer();
     this.append("]");
-
+    this.decreaseDepth();
   }
 }

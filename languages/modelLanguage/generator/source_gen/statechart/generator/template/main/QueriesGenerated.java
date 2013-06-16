@@ -9,6 +9,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.generator.template.PropertyMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import java.util.List;
+import java.util.ArrayList;
+import statechart.behavior.Statechart_Behavior;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
 
 public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_2747754268221229806(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -21,5 +30,46 @@ public class QueriesGenerated {
         return SLinkOperations.getTarget(it, "structure", true) != null;
       }
     });
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7385576573236743448(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static SNode sourceNodeQuery_7385576573236746507(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "condition", true);
+  }
+
+  public static SNode sourceNodeQuery_7385576573236747798(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "action", true);
+  }
+
+  public static SNode sourceNodeQuery_7385576573236750019(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    SNode result = SConceptOperations.createNewNode("statechart.structure.TargetReference", null);
+    SLinkOperations.setTarget(result, "state", BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(_context.getNode(), "to", true), "virtual_getEndPointState_1955678301119751738", new Object[]{}), false);
+    return result;
+  }
+
+  public static SNode sourceNodeQuery_7385576573236745434(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    SNode result = SConceptOperations.createNewNode("statechart.structure.TargetReference", null);
+    SLinkOperations.setTarget(result, "state", BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(_context.getNode(), "from", true), "virtual_getEndPointState_1955678301119751738", new Object[]{}), false);
+    return result;
+  }
+
+  public static Iterable sourceNodesQuery_7385576573236816465(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    List<SNode> result = new ArrayList<SNode>();
+    ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "transitions", true)));
+    return ListSequence.fromList(result).addSequence(ListSequence.fromList(Statechart_Behavior.call_complexStates_2747754268221235094(_context.getNode())).translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode it) {
+        return (SLinkOperations.getTarget(it, "structure", true) == null ?
+          new ArrayList<SNode>() :
+          SLinkOperations.getTargets(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(it, "structure", true), "virtual_getStatechart_1955678301119453888", new Object[]{}), "transitions", true)
+        );
+      }
+    }));
+  }
+
+  public static Iterable sourceNodesQuery_7385576573236802415(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return Statechart_Behavior.call_simpleStates_2747754268221231605(_context.getNode());
   }
 }

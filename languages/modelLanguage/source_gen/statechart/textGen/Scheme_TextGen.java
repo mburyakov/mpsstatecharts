@@ -16,13 +16,11 @@ public class Scheme_TextGen extends SNodeTextGen {
     this.appendNewLine();
     this.append("import Promela");
     this.appendNewLine();
-    this.increaseDepth();
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "actors", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "actors", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
-    this.decreaseDepth();
   }
 
   public String getExtension(SNode node) {

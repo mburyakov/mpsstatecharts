@@ -13,15 +13,15 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.project.GlobalScope;
 
-public class typeof_Transition_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
-  public typeof_Transition_InferenceRule() {
+public class typeof_Transition_Condition_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
+  public typeof_Transition_Condition_InferenceRule() {
   }
 
   public void applyRule(final SNode nodeToCheck, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(nodeToCheck, "condition", true);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:e6b49452-7c70-4713-9029-6c9dda75fe0a(statechart.typesystem)", "6207949991003448616", 0, null);
-      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:e6b49452-7c70-4713-9029-6c9dda75fe0a(statechart.typesystem)", "6207949991003416580", true), (SNode) _quotation_createNode_v2yaho_a0a0b(), false, true, _info_12389875345);
+      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:e6b49452-7c70-4713-9029-6c9dda75fe0a(statechart.typesystem)", "6207949991003416580", true), (SNode) _quotation_createNode_qhatx6_a0a0b(), false, true, _info_12389875345);
     }
   }
 
@@ -40,7 +40,7 @@ public class typeof_Transition_InferenceRule extends AbstractInferenceRule_Runti
     return false;
   }
 
-  private static SNode _quotation_createNode_v2yaho_a0a0b() {
+  private static SNode _quotation_createNode_qhatx6_a0a0b() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("statechart.structure.BooleanType", null, null, GlobalScope.getInstance(), false);

@@ -11,55 +11,24 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class Transition_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    /*
-      {
-        this.append("(");
-      }
-      {
-        this.append(Integer.toString(SNodeOperations.getIndexInParent(SLinkOperations.getTarget(SLinkOperations.getTarget(node, "from", true), "state", false))));
-      }
-      {
-        this.append(", ");
-      }
-      {
-        this.append(Integer.toString(SNodeOperations.getIndexInParent(SLinkOperations.getTarget(SLinkOperations.getTarget(node, "to", true), "state", false))));
-      }
-      {
-        this.append(", Transition () ");
-      }
-      {
-        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "condition", true), this.getSNode());
-      }
-      {
-        this.append(" [");
-      }
-      {
-        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "action", true), this.getSNode());
-      }
-      {
-        this.append("] [");
-      }
-      {
-        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "from", true), this.getSNode());
-      }
-      {
-        this.append("] [");
-      }
-      {
-        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "to", true), this.getSNode());
-      }
-      {
-        this.append("]");
-      }
-      {
-        this.append(")");
-      }
-      if (SNodeOperations.getIndexInParent(node) != ListSequence.fromList(SLinkOperations.getTargets(((SNode) SNodeOperations.getParent(node)), "transitions", true)).count() - 1) {
-        this.append(",");
-      }
-      {
-        this.appendNewLine();
-      }
-    */
+    this.appendNewLine();
+    this.indentBuffer();
+    this.append("(");
+    this.append(Integer.toString(SNodeOperations.getIndexInParent(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(node, "from", true), "statechart.structure.TargetReference"), "state", false))));
+    this.append(", ");
+    this.append(Integer.toString(SNodeOperations.getIndexInParent(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(node, "to", true), "statechart.structure.TargetReference"), "state", false))));
+    this.append(", Transition () ");
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "condition", true), this.getSNode());
+    this.append(" [");
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "action", true), this.getSNode());
+    this.append("] [");
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "from", true), this.getSNode());
+    this.append("] [");
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "to", true), this.getSNode());
+    this.append("]");
+    this.append(")");
+    if (SNodeOperations.getIndexInParent(node) != ListSequence.fromList(SLinkOperations.getTargets(((SNode) SNodeOperations.getParent(node)), "transitions", true)).count() - 1) {
+      this.append(",");
+    }
   }
 }

@@ -16,7 +16,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
     <classNode dependClassName="statechart.behavior.Actor_BehaviorDescriptor" />
-    <classNode dependClassName="statechart.behavior.BlockStatement_BehaviorDescriptor" />
     <classNode dependClassName="statechart.behavior.BooleanType_BehaviorDescriptor" />
     <classNode dependClassName="statechart.behavior.Channel_BehaviorDescriptor" />
     <classNode dependClassName="statechart.behavior.EmptyStatement_BehaviorDescriptor" />
@@ -31,14 +30,6 @@
     <classNode dependClassName="statechart.behavior.Transition_BehaviorDescriptor" />
     <classNode dependClassName="statechart.behavior.True_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
-  </dependency>
-  <dependency className="statechart.behavior.BlockStatement_BehaviorDescriptor" file="BlockStatement_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="statechart.behavior.IStatement_BehaviorDescriptor" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="statechart.behavior.BooleanType_BehaviorDescriptor" file="BooleanType_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -132,7 +123,9 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="statechart.behavior.Statechart_Behavior" file="Statechart_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ITranslator2" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
@@ -142,6 +135,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.scope.Scope" />
     <classNode dependClassName="jetbrains.mps.scope.SimpleRoleScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="statechart.behavior.Statechart_BehaviorDescriptor" file="Statechart_BehaviorDescriptor.java">
@@ -196,6 +190,12 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.scope.Scope" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="statechart.behavior.TargetReferenceType_BehaviorDescriptor" file="TargetReferenceType_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="statechart.behavior.TargetReference_Behavior" file="TargetReference_Behavior.java">

@@ -12,6 +12,8 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class State_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    this.appendNewLine();
+    this.indentBuffer();
     this.append("(");
     this.append(Integer.toString(SNodeOperations.getIndexInParent(node)));
     this.append(", State () ");
@@ -40,6 +42,5 @@ public class State_TextGen extends SNodeTextGen {
     if (SNodeOperations.getIndexInParent(node) != ListSequence.fromList(SLinkOperations.getTargets(((SNode) SNodeOperations.getParent(node)), "states", true)).count() - 1) {
       this.append(",");
     }
-    this.appendNewLine();
   }
 }

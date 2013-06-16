@@ -15,6 +15,7 @@ import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
@@ -25,7 +26,7 @@ public class QueriesGenerated {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("statechart.structure.TargetRefDotExpression"), _context.getSourceNode()) {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
-        return SNodeOperations.replaceWithAnother(_context.getSourceNode(), _quotation_createNode_8ofy5p_a0a0a0a0a(_context.getSourceNode()));
+        return SNodeOperations.replaceWithAnother(_context.getSourceNode(), _quotation_createNode_2688r1_a0a0a0a0a(_context.getSourceNode()));
       }
 
       public String getMatchingText(String pattern) {
@@ -44,16 +45,32 @@ public class QueriesGenerated {
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_TargetReference_2747754268221321283(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return true;
-    // todo: true if not a final state 
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getSourceNode(), "state", false), "structure", true) != null;
   }
 
-  public static List<SubstituteAction> sideTransform_ActionsFactory_TargetRefExpression_3233011721676219930(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<SubstituteAction> sideTransform_ActionsFactory_State_3233011721676219930(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("statechart.structure.State"), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        return SLinkOperations.setTarget(_context.getSourceNode(), "structure", SConceptOperations.createNewNode("statechart.structure.StatechartExpression", null), true);
+      }
+
+      public String getMatchingText(String pattern) {
+        return "=";
+      }
+
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+
+      public String getDescriptionText(String pattern) {
+        return "Add initializer";
+      }
+    });
     return result;
   }
 
-  private static SNode _quotation_createNode_8ofy5p_a0a0a0a0a(Object parameter_1) {
+  private static SNode _quotation_createNode_2688r1_a0a0a0a0a(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;

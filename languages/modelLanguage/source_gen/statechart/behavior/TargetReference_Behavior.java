@@ -16,7 +16,7 @@ public class TargetReference_Behavior {
     if (SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "state", false), "structure", true) == null) {
       return new EmptyScope();
     } else {
-      return BehaviorReflection.invokeVirtual(Scope.class, SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "state", false), "structure", true), "virtual_getScope_3734116213129936182", new Object[]{kind, child});
+      return BehaviorReflection.invokeVirtual(Scope.class, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "state", false), "structure", true), "virtual_getStatechart_1955678301119453888", new Object[]{}), "virtual_getScope_3734116213129936182", new Object[]{kind, child});
     }
   }
 

@@ -6,12 +6,16 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class Actor_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    this.appendNewLine();
+    this.appendNewLine();
+    this.indentBuffer();
     this.append(SPropertyOperations.getString(node, "name"));
     this.append(" = ");
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "implementation", true), this.getSNode());
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(node, "implementation", true), "virtual_getStatechart_1955678301119453888", new Object[]{}), this.getSNode());
   }
 }

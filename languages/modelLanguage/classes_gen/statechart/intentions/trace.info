@@ -173,7 +173,7 @@
     <nodeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="67" startPosition="37" endLine="68" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="69" startPosition="5" endLine="70" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4965811635370428381" fileName="SetComposite_Intention.java" startLine="77" startPosition="87" endLine="78" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4965811635370428383" fileName="SetComposite_Intention.java" startLine="81" startPosition="78" endLine="82" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4965811635370428383" fileName="SetComposite_Intention.java" startLine="81" startPosition="78" endLine="82" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="85" startPosition="48" endLine="86" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="20" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SetComposite_Intention#()V" />
     <nodeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="74" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
@@ -207,7 +207,7 @@
     <scopeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="62" startPosition="35" endLine="63" endPosition="17" />
     <scopeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="67" startPosition="37" endLine="68" endPosition="128" />
     <scopeInfo nodeId="4965811635370428370" fileName="SetComposite_Intention.java" startLine="77" startPosition="87" endLine="78" endPosition="35" />
-    <scopeInfo nodeId="4965811635370428372" fileName="SetComposite_Intention.java" startLine="81" startPosition="78" endLine="82" endPosition="88" />
+    <scopeInfo nodeId="4965811635370428372" fileName="SetComposite_Intention.java" startLine="81" startPosition="78" endLine="82" endPosition="98" />
     <scopeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="85" startPosition="48" endLine="86" endPosition="41" />
     <scopeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="20" startPosition="0" endLine="22" endPosition="0" />
     <scopeInfo nodeId="4965811635370428368" fileName="SetComposite_Intention.java" startLine="74" startPosition="0" endLine="76" endPosition="0" />

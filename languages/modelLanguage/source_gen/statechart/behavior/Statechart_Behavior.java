@@ -11,6 +11,7 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class Statechart_Behavior {
@@ -43,7 +44,7 @@ public class Statechart_Behavior {
   public static List<SNode> call_simpleStates_2747754268221231605(SNode thisNode) {
     return ListSequence.fromList(Statechart_Behavior.call_mySimpleStates_2747754268221231852(thisNode)).concat(ListSequence.fromList(Statechart_Behavior.call_myComplexStates_2747754268221231933(thisNode)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
-        return Statechart_Behavior.call_simpleStates_2747754268221231605(SLinkOperations.getTarget(it, "structure", true));
+        return Statechart_Behavior.call_simpleStates_2747754268221231605(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(it, "structure", true), "virtual_getStatechart_1955678301119453888", new Object[]{}));
       }
     })).toListSequence();
   }
@@ -51,7 +52,7 @@ public class Statechart_Behavior {
   public static List<SNode> call_complexStates_2747754268221235094(SNode thisNode) {
     return ListSequence.fromList(Statechart_Behavior.call_myComplexStates_2747754268221231933(thisNode)).concat(ListSequence.fromList(Statechart_Behavior.call_myComplexStates_2747754268221231933(thisNode)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
-        return Statechart_Behavior.call_complexStates_2747754268221235094(SLinkOperations.getTarget(it, "structure", true));
+        return Statechart_Behavior.call_complexStates_2747754268221235094(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(it, "structure", true), "virtual_getStatechart_1955678301119453888", new Object[]{}));
       }
     })).toListSequence();
   }
@@ -96,7 +97,7 @@ public class Statechart_Behavior {
       null :
       (SLinkOperations.getTarget(msf, "structure", true) == null ?
         msf :
-        Statechart_Behavior.call_singleInitial_2747754268221309514(SLinkOperations.getTarget(msf, "structure", true))
+        Statechart_Behavior.call_singleInitial_2747754268221309514(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(msf, "structure", true), "virtual_getStatechart_1955678301119453888", new Object[]{}))
       )
     );
   }
@@ -107,7 +108,7 @@ public class Statechart_Behavior {
       null :
       (SLinkOperations.getTarget(msf, "structure", true) == null ?
         msf :
-        Statechart_Behavior.call_singleFinal_2747754268221309910(SLinkOperations.getTarget(msf, "structure", true))
+        Statechart_Behavior.call_singleFinal_2747754268221309910(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(msf, "structure", true), "virtual_getStatechart_1955678301119453888", new Object[]{}))
       )
     );
   }

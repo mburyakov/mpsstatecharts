@@ -79,7 +79,7 @@ public class SetComposite_Intention implements IntentionFactory {
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {
-      SLinkOperations.setNewChild(node, "structure", "statechart.structure.Statechart");
+      SLinkOperations.setNewChild(node, "structure", "statechart.structure.StatechartExpression");
     }
 
     public IntentionDescriptor getDescriptor() {

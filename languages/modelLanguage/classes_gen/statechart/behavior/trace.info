@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="Actor_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="statechart.behavior.Actor_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="52" endPosition="0" unitName="statechart.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="BlockStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statechart.behavior.BlockStatement_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="50" endPosition="0" unitName="statechart.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="BooleanType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="statechart.behavior.BooleanType_BehaviorDescriptor" />
   <unitInfo fileName="Channel_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="statechart.behavior.Channel_BehaviorDescriptor" />
   <unitInfo fileName="EmptyStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statechart.behavior.EmptyStatement_BehaviorDescriptor" />
@@ -18,6 +17,7 @@
   <unitInfo fileName="Statechart_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="31" endPosition="0" unitName="statechart.behavior.Statechart_BehaviorDescriptor" />
   <unitInfo fileName="TargetRefDotExpression_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="39" endPosition="0" unitName="statechart.behavior.TargetRefDotExpression_BehaviorDescriptor" />
   <unitInfo fileName="TargetRefExpression_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="statechart.behavior.TargetRefExpression_BehaviorDescriptor" />
+  <unitInfo fileName="TargetReferenceType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statechart.behavior.TargetReferenceType_BehaviorDescriptor" />
   <unitInfo fileName="TargetReference_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="29" endPosition="0" unitName="statechart.behavior.TargetReference_BehaviorDescriptor" />
   <unitInfo fileName="Transition_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="statechart.behavior.Transition_BehaviorDescriptor" />
   <unitInfo fileName="True_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statechart.behavior.True_BehaviorDescriptor" />
@@ -165,157 +165,157 @@
     <unitInfo nodeId="3233011721676186051" fileName="TargetRefExpression_Behavior.java" startLine="11" startPosition="0" endLine="59" endPosition="0" unitName="statechart.behavior.TargetRefExpression_Behavior" />
   </root>
   <root nodeRef="r:191d7ac1-727b-48fc-a5e8-c54590b978ca(statechart.behavior)/4014215078327368420">
-    <nodeInfo nodeId="4965811635370366131" fileName="Statechart_Behavior.java" startLine="21" startPosition="80" endLine="22" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4965811635370366140" fileName="Statechart_Behavior.java" startLine="23" startPosition="5" endLine="24" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221231820" fileName="Statechart_Behavior.java" startLine="29" startPosition="39" endLine="30" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221231945" fileName="Statechart_Behavior.java" startLine="37" startPosition="39" endLine="38" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221233974" fileName="Statechart_Behavior.java" startLine="45" startPosition="50" endLine="46" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221235108" fileName="Statechart_Behavior.java" startLine="53" startPosition="50" endLine="54" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309479" fileName="Statechart_Behavior.java" startLine="61" startPosition="39" endLine="62" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309504" fileName="Statechart_Behavior.java" startLine="69" startPosition="39" endLine="70" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309526" fileName="Statechart_Behavior.java" startLine="75" startPosition="80" endLine="76" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2747754268221309589" fileName="Statechart_Behavior.java" startLine="77" startPosition="56" endLine="78" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309643" fileName="Statechart_Behavior.java" startLine="79" startPosition="12" endLine="80" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309671" fileName="Statechart_Behavior.java" startLine="84" startPosition="78" endLine="85" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2747754268221309676" fileName="Statechart_Behavior.java" startLine="86" startPosition="56" endLine="87" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309688" fileName="Statechart_Behavior.java" startLine="88" startPosition="12" endLine="89" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309691" fileName="Statechart_Behavior.java" startLine="93" startPosition="78" endLine="94" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2747754268221309913" fileName="Statechart_Behavior.java" startLine="104" startPosition="76" endLine="105" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1955678301119485986" fileName="Statechart_Behavior.java" startLine="115" startPosition="81" endLine="116" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="2747754268221309641" fileName="Statechart_Behavior.java" startLine="79" startPosition="10" endLine="81" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2747754268221309686" fileName="Statechart_Behavior.java" startLine="88" startPosition="10" endLine="90" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4965811635370362214" fileName="Statechart_Behavior.java" startLine="20" startPosition="101" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2747754268221231818" fileName="Statechart_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="2747754268221231943" fileName="Statechart_Behavior.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="2747754268221233970" fileName="Statechart_Behavior.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="2747754268221235106" fileName="Statechart_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="2747754268221309477" fileName="Statechart_Behavior.java" startLine="61" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="2747754268221309502" fileName="Statechart_Behavior.java" startLine="69" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="115" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getStatechart_1955678301119453888#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="2747754268221231857" fileName="Statechart_Behavior.java" startLine="27" startPosition="85" endLine="32" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221231936" fileName="Statechart_Behavior.java" startLine="35" startPosition="86" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221235033" fileName="Statechart_Behavior.java" startLine="43" startPosition="83" endLine="48" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221235098" fileName="Statechart_Behavior.java" startLine="51" startPosition="84" endLine="56" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309470" fileName="Statechart_Behavior.java" startLine="59" startPosition="86" endLine="64" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309495" fileName="Statechart_Behavior.java" startLine="67" startPosition="84" endLine="72" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309532" fileName="Statechart_Behavior.java" startLine="76" startPosition="93" endLine="81" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2747754268221309674" fileName="Statechart_Behavior.java" startLine="85" startPosition="91" endLine="90" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="20" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="27" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_mySimpleStates_2747754268221231852#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="35" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_myComplexStates_2747754268221231933#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="43" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_simpleStates_2747754268221231605#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_complexStates_2747754268221235094#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="59" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_myInitialStates_2747754268221309465#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="67" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_myFinalStates_2747754268221309491#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="2747754268221309726" fileName="Statechart_Behavior.java" startLine="94" startPosition="87" endLine="101" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2747754268221309917" fileName="Statechart_Behavior.java" startLine="105" startPosition="85" endLine="112" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="75" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_mySingleInitial_2747754268221309519#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="84" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_mySingleFinal_2747754268221309668#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="93" startPosition="0" endLine="103" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_singleInitial_2747754268221309514#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="104" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_singleFinal_2747754268221309910#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="4014215078327368422" fileName="Statechart_Behavior.java" startLine="17" startPosition="43" endLine="17" endPosition="43" />
-    <scopeInfo nodeId="4965811635370362216" fileName="Statechart_Behavior.java" startLine="21" startPosition="80" endLine="22" endPosition="138" />
-    <scopeInfo nodeId="2747754268221231819" fileName="Statechart_Behavior.java" startLine="29" startPosition="39" endLine="30" endPosition="72" />
-    <scopeInfo nodeId="2747754268221231944" fileName="Statechart_Behavior.java" startLine="37" startPosition="39" endLine="38" endPosition="72" />
-    <scopeInfo nodeId="2747754268221233971" fileName="Statechart_Behavior.java" startLine="45" startPosition="50" endLine="46" endPosition="123" />
-    <scopeInfo nodeId="2747754268221235107" fileName="Statechart_Behavior.java" startLine="53" startPosition="50" endLine="54" endPosition="124" />
-    <scopeInfo nodeId="2747754268221309478" fileName="Statechart_Behavior.java" startLine="61" startPosition="39" endLine="62" endPosition="63" />
-    <scopeInfo nodeId="2747754268221309503" fileName="Statechart_Behavior.java" startLine="69" startPosition="39" endLine="70" endPosition="61" />
-    <scopeInfo nodeId="2747754268221309533" fileName="Statechart_Behavior.java" startLine="77" startPosition="56" endLine="78" endPosition="54" />
-    <scopeInfo nodeId="2747754268221309642" fileName="Statechart_Behavior.java" startLine="79" startPosition="12" endLine="80" endPosition="18" />
-    <scopeInfo nodeId="2747754268221309675" fileName="Statechart_Behavior.java" startLine="86" startPosition="56" endLine="87" endPosition="54" />
-    <scopeInfo nodeId="2747754268221309687" fileName="Statechart_Behavior.java" startLine="88" startPosition="12" endLine="89" endPosition="18" />
-    <scopeInfo nodeId="1955678301119477563" fileName="Statechart_Behavior.java" startLine="115" startPosition="81" endLine="116" endPosition="20" />
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0">
+    <nodeInfo nodeId="4965811635370366131" fileName="Statechart_Behavior.java" startLine="22" startPosition="80" endLine="23" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4965811635370366140" fileName="Statechart_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221231820" fileName="Statechart_Behavior.java" startLine="30" startPosition="39" endLine="31" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221231945" fileName="Statechart_Behavior.java" startLine="38" startPosition="39" endLine="39" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221233974" fileName="Statechart_Behavior.java" startLine="46" startPosition="50" endLine="47" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221235108" fileName="Statechart_Behavior.java" startLine="54" startPosition="50" endLine="55" endPosition="258" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309479" fileName="Statechart_Behavior.java" startLine="62" startPosition="39" endLine="63" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309504" fileName="Statechart_Behavior.java" startLine="70" startPosition="39" endLine="71" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309526" fileName="Statechart_Behavior.java" startLine="76" startPosition="80" endLine="77" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2747754268221309589" fileName="Statechart_Behavior.java" startLine="78" startPosition="56" endLine="79" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309643" fileName="Statechart_Behavior.java" startLine="80" startPosition="12" endLine="81" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309671" fileName="Statechart_Behavior.java" startLine="85" startPosition="78" endLine="86" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2747754268221309676" fileName="Statechart_Behavior.java" startLine="87" startPosition="56" endLine="88" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309688" fileName="Statechart_Behavior.java" startLine="89" startPosition="12" endLine="90" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309691" fileName="Statechart_Behavior.java" startLine="94" startPosition="78" endLine="95" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2747754268221309913" fileName="Statechart_Behavior.java" startLine="105" startPosition="76" endLine="106" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1955678301119485986" fileName="Statechart_Behavior.java" startLine="116" startPosition="81" endLine="117" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2747754268221309641" fileName="Statechart_Behavior.java" startLine="80" startPosition="10" endLine="82" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2747754268221309686" fileName="Statechart_Behavior.java" startLine="89" startPosition="10" endLine="91" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4965811635370362214" fileName="Statechart_Behavior.java" startLine="21" startPosition="101" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2747754268221231818" fileName="Statechart_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="2747754268221231943" fileName="Statechart_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="2747754268221233970" fileName="Statechart_Behavior.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="2747754268221235106" fileName="Statechart_Behavior.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="2747754268221309477" fileName="Statechart_Behavior.java" startLine="62" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="2747754268221309502" fileName="Statechart_Behavior.java" startLine="70" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="116" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getStatechart_1955678301119453888#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="2747754268221231857" fileName="Statechart_Behavior.java" startLine="28" startPosition="85" endLine="33" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221231936" fileName="Statechart_Behavior.java" startLine="36" startPosition="86" endLine="41" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221235033" fileName="Statechart_Behavior.java" startLine="44" startPosition="83" endLine="49" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221235098" fileName="Statechart_Behavior.java" startLine="52" startPosition="84" endLine="57" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309470" fileName="Statechart_Behavior.java" startLine="60" startPosition="86" endLine="65" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309495" fileName="Statechart_Behavior.java" startLine="68" startPosition="84" endLine="73" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309532" fileName="Statechart_Behavior.java" startLine="77" startPosition="93" endLine="82" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2747754268221309674" fileName="Statechart_Behavior.java" startLine="86" startPosition="91" endLine="91" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="21" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="28" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_mySimpleStates_2747754268221231852#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="36" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_myComplexStates_2747754268221231933#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="44" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_simpleStates_2747754268221231605#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="52" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_complexStates_2747754268221235094#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="60" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_myInitialStates_2747754268221309465#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="68" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_myFinalStates_2747754268221309491#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+    <nodeInfo nodeId="2747754268221309726" fileName="Statechart_Behavior.java" startLine="95" startPosition="87" endLine="102" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2747754268221309917" fileName="Statechart_Behavior.java" startLine="106" startPosition="85" endLine="113" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="76" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_mySingleInitial_2747754268221309519#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="85" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_mySingleFinal_2747754268221309668#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="94" startPosition="0" endLine="104" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_singleInitial_2747754268221309514#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="105" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_singleFinal_2747754268221309910#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="4014215078327368422" fileName="Statechart_Behavior.java" startLine="18" startPosition="43" endLine="18" endPosition="43" />
+    <scopeInfo nodeId="4965811635370362216" fileName="Statechart_Behavior.java" startLine="22" startPosition="80" endLine="23" endPosition="138" />
+    <scopeInfo nodeId="2747754268221231819" fileName="Statechart_Behavior.java" startLine="30" startPosition="39" endLine="31" endPosition="72" />
+    <scopeInfo nodeId="2747754268221231944" fileName="Statechart_Behavior.java" startLine="38" startPosition="39" endLine="39" endPosition="72" />
+    <scopeInfo nodeId="2747754268221233971" fileName="Statechart_Behavior.java" startLine="46" startPosition="50" endLine="47" endPosition="257" />
+    <scopeInfo nodeId="2747754268221235107" fileName="Statechart_Behavior.java" startLine="54" startPosition="50" endLine="55" endPosition="258" />
+    <scopeInfo nodeId="2747754268221309478" fileName="Statechart_Behavior.java" startLine="62" startPosition="39" endLine="63" endPosition="63" />
+    <scopeInfo nodeId="2747754268221309503" fileName="Statechart_Behavior.java" startLine="70" startPosition="39" endLine="71" endPosition="61" />
+    <scopeInfo nodeId="2747754268221309533" fileName="Statechart_Behavior.java" startLine="78" startPosition="56" endLine="79" endPosition="54" />
+    <scopeInfo nodeId="2747754268221309642" fileName="Statechart_Behavior.java" startLine="80" startPosition="12" endLine="81" endPosition="18" />
+    <scopeInfo nodeId="2747754268221309675" fileName="Statechart_Behavior.java" startLine="87" startPosition="56" endLine="88" endPosition="54" />
+    <scopeInfo nodeId="2747754268221309687" fileName="Statechart_Behavior.java" startLine="89" startPosition="12" endLine="90" endPosition="18" />
+    <scopeInfo nodeId="1955678301119477563" fileName="Statechart_Behavior.java" startLine="116" startPosition="81" endLine="117" endPosition="20" />
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221231818" fileName="Statechart_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="2747754268221231818" fileName="Statechart_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="2747754268221231818" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221231943" fileName="Statechart_Behavior.java" startLine="37" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="2747754268221231943" fileName="Statechart_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
       <varInfo nodeId="2747754268221231943" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221233970" fileName="Statechart_Behavior.java" startLine="45" startPosition="0" endLine="48" endPosition="0">
+    <scopeInfo nodeId="2747754268221233970" fileName="Statechart_Behavior.java" startLine="46" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="2747754268221233970" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221235106" fileName="Statechart_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0">
+    <scopeInfo nodeId="2747754268221235106" fileName="Statechart_Behavior.java" startLine="54" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="2747754268221235106" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221309477" fileName="Statechart_Behavior.java" startLine="61" startPosition="0" endLine="64" endPosition="0">
+    <scopeInfo nodeId="2747754268221309477" fileName="Statechart_Behavior.java" startLine="62" startPosition="0" endLine="65" endPosition="0">
       <varInfo nodeId="2747754268221309477" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221309502" fileName="Statechart_Behavior.java" startLine="69" startPosition="0" endLine="72" endPosition="0">
+    <scopeInfo nodeId="2747754268221309502" fileName="Statechart_Behavior.java" startLine="70" startPosition="0" endLine="73" endPosition="0">
       <varInfo nodeId="2747754268221309502" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="115" startPosition="0" endLine="118" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="116" startPosition="0" endLine="119" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327372467" fileName="Statechart_Behavior.java" startLine="20" startPosition="101" endLine="24" endPosition="16" />
-    <scopeInfo nodeId="2747754268221231855" fileName="Statechart_Behavior.java" startLine="27" startPosition="85" endLine="32" endPosition="24" />
-    <scopeInfo nodeId="2747754268221231935" fileName="Statechart_Behavior.java" startLine="35" startPosition="86" endLine="40" endPosition="24" />
-    <scopeInfo nodeId="2747754268221231608" fileName="Statechart_Behavior.java" startLine="43" startPosition="83" endLine="48" endPosition="25" />
-    <scopeInfo nodeId="2747754268221235097" fileName="Statechart_Behavior.java" startLine="51" startPosition="84" endLine="56" endPosition="25" />
-    <scopeInfo nodeId="2747754268221309468" fileName="Statechart_Behavior.java" startLine="59" startPosition="86" endLine="64" endPosition="24" />
-    <scopeInfo nodeId="2747754268221309494" fileName="Statechart_Behavior.java" startLine="67" startPosition="84" endLine="72" endPosition="24" />
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="20" startPosition="0" endLine="26" endPosition="0">
+    <scopeInfo nodeId="4014215078327372467" fileName="Statechart_Behavior.java" startLine="21" startPosition="101" endLine="25" endPosition="16" />
+    <scopeInfo nodeId="2747754268221231855" fileName="Statechart_Behavior.java" startLine="28" startPosition="85" endLine="33" endPosition="24" />
+    <scopeInfo nodeId="2747754268221231935" fileName="Statechart_Behavior.java" startLine="36" startPosition="86" endLine="41" endPosition="24" />
+    <scopeInfo nodeId="2747754268221231608" fileName="Statechart_Behavior.java" startLine="44" startPosition="83" endLine="49" endPosition="25" />
+    <scopeInfo nodeId="2747754268221235097" fileName="Statechart_Behavior.java" startLine="52" startPosition="84" endLine="57" endPosition="25" />
+    <scopeInfo nodeId="2747754268221309468" fileName="Statechart_Behavior.java" startLine="60" startPosition="86" endLine="65" endPosition="24" />
+    <scopeInfo nodeId="2747754268221309494" fileName="Statechart_Behavior.java" startLine="68" startPosition="84" endLine="73" endPosition="24" />
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="21" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="4014215078327372471" varName="child" />
       <varInfo nodeId="4014215078327372469" varName="kind" />
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221309522" fileName="Statechart_Behavior.java" startLine="75" startPosition="80" endLine="81" endPosition="5">
+    <scopeInfo nodeId="2747754268221309522" fileName="Statechart_Behavior.java" startLine="76" startPosition="80" endLine="82" endPosition="5">
       <varInfo nodeId="2747754268221309527" varName="mfs" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221309670" fileName="Statechart_Behavior.java" startLine="84" startPosition="78" endLine="90" endPosition="5">
+    <scopeInfo nodeId="2747754268221309670" fileName="Statechart_Behavior.java" startLine="85" startPosition="78" endLine="91" endPosition="5">
       <varInfo nodeId="2747754268221309672" varName="mfs" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="27" startPosition="0" endLine="34" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="28" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="35" startPosition="0" endLine="42" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="36" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="43" startPosition="0" endLine="50" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="44" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="51" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="52" startPosition="0" endLine="59" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="59" startPosition="0" endLine="66" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="60" startPosition="0" endLine="67" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="67" startPosition="0" endLine="74" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="68" startPosition="0" endLine="75" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="75" startPosition="0" endLine="83" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="76" startPosition="0" endLine="84" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="84" startPosition="0" endLine="92" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="85" startPosition="0" endLine="93" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221309517" fileName="Statechart_Behavior.java" startLine="93" startPosition="78" endLine="101" endPosition="6">
+    <scopeInfo nodeId="2747754268221309517" fileName="Statechart_Behavior.java" startLine="94" startPosition="78" endLine="102" endPosition="6">
       <varInfo nodeId="2747754268221309692" varName="msf" />
     </scopeInfo>
-    <scopeInfo nodeId="2747754268221309912" fileName="Statechart_Behavior.java" startLine="104" startPosition="76" endLine="112" endPosition="6">
+    <scopeInfo nodeId="2747754268221309912" fileName="Statechart_Behavior.java" startLine="105" startPosition="76" endLine="113" endPosition="6">
       <varInfo nodeId="2747754268221309914" varName="msf" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="93" startPosition="0" endLine="103" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="94" startPosition="0" endLine="104" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="104" startPosition="0" endLine="114" endPosition="0">
+    <scopeInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="105" startPosition="0" endLine="115" endPosition="0">
       <varInfo nodeId="4014215078327368420" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="2747754268221231818" fileName="Statechart_Behavior.java" startLine="28" startPosition="97" endLine="32" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$1" />
-    <unitInfo nodeId="2747754268221231943" fileName="Statechart_Behavior.java" startLine="36" startPosition="97" endLine="40" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$2" />
-    <unitInfo nodeId="2747754268221233970" fileName="Statechart_Behavior.java" startLine="44" startPosition="219" endLine="48" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$3" />
-    <unitInfo nodeId="2747754268221235106" fileName="Statechart_Behavior.java" startLine="52" startPosition="220" endLine="56" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$4" />
-    <unitInfo nodeId="2747754268221309477" fileName="Statechart_Behavior.java" startLine="60" startPosition="97" endLine="64" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$5" />
-    <unitInfo nodeId="2747754268221309502" fileName="Statechart_Behavior.java" startLine="68" startPosition="97" endLine="72" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$6" />
-    <unitInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="16" startPosition="0" endLine="119" endPosition="0" unitName="statechart.behavior.Statechart_Behavior" />
+    <unitInfo nodeId="2747754268221231818" fileName="Statechart_Behavior.java" startLine="29" startPosition="97" endLine="33" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$1" />
+    <unitInfo nodeId="2747754268221231943" fileName="Statechart_Behavior.java" startLine="37" startPosition="97" endLine="41" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$2" />
+    <unitInfo nodeId="2747754268221233970" fileName="Statechart_Behavior.java" startLine="45" startPosition="219" endLine="49" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$3" />
+    <unitInfo nodeId="2747754268221235106" fileName="Statechart_Behavior.java" startLine="53" startPosition="220" endLine="57" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$4" />
+    <unitInfo nodeId="2747754268221309477" fileName="Statechart_Behavior.java" startLine="61" startPosition="97" endLine="65" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$5" />
+    <unitInfo nodeId="2747754268221309502" fileName="Statechart_Behavior.java" startLine="69" startPosition="97" endLine="73" endPosition="5" unitName="statechart.behavior.Statechart_Behavior$6" />
+    <unitInfo nodeId="4014215078327368420" fileName="Statechart_Behavior.java" startLine="17" startPosition="0" endLine="120" endPosition="0" unitName="statechart.behavior.Statechart_Behavior" />
   </root>
   <root nodeRef="r:191d7ac1-727b-48fc-a5e8-c54590b978ca(statechart.behavior)/4406910735944400693">
     <nodeInfo nodeId="3233011721676204477" fileName="TargetReference_Behavior.java" startLine="16" startPosition="116" endLine="17" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3233011721676204484" fileName="TargetReference_Behavior.java" startLine="18" startPosition="12" endLine="19" endPosition="225" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3233011721676204484" fileName="TargetReference_Behavior.java" startLine="18" startPosition="12" endLine="19" endPosition="359" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1955678301119790042" fileName="TargetReference_Behavior.java" startLine="24" startPosition="116" endLine="25" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1955678301119877357" fileName="TargetReference_Behavior.java" startLine="34" startPosition="80" endLine="35" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4406910735944400693" fileName="TargetReference_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -329,7 +329,7 @@
     <nodeInfo nodeId="4406910735944400693" fileName="TargetReference_Behavior.java" startLine="23" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getEndPointState_1955678301119751738#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <scopeInfo nodeId="2747754268221238082" fileName="TargetReference_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
     <scopeInfo nodeId="3233011721676204395" fileName="TargetReference_Behavior.java" startLine="16" startPosition="116" endLine="17" endPosition="30" />
-    <scopeInfo nodeId="3233011721676204483" fileName="TargetReference_Behavior.java" startLine="18" startPosition="12" endLine="19" endPosition="225" />
+    <scopeInfo nodeId="3233011721676204483" fileName="TargetReference_Behavior.java" startLine="18" startPosition="12" endLine="19" endPosition="359" />
     <scopeInfo nodeId="1955678301119773582" fileName="TargetReference_Behavior.java" startLine="24" startPosition="116" endLine="25" endPosition="65" />
     <scopeInfo nodeId="1955678301119772966" fileName="TargetReference_Behavior.java" startLine="34" startPosition="80" endLine="35" endPosition="117" />
     <scopeInfo nodeId="4406910735944400693" fileName="TargetReference_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">

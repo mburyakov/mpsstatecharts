@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="5pv3g2dyrb8rjs9bsnqx7p0ouv2v6fe">
-  <dep model="r:8a7b3a80-b470-428c-bbf6-44edb75615fe(statechart.generator.template.main@generator)" hash="1v33tjh15swll3z6emwu7wa29dsg3ey" />
-  <common hash="9leeb5p87ayfv15o1zltblydzrb9ku3" />
-  <source id="2023328696140608703" hash="-9704zir4cww6z33x5q9wpqijdypu8v5">
+<dependencies version="2" modelHash="ams4y08lofmr6xjgfmw9vjsr02nsx1p">
+  <dep model="r:232915bf-7755-4eca-967d-f25f17e5f67e(statechart.structure)" hash="-6fud2w6bulx22v2890yrdi35hsyflhl" />
+  <dep model="r:8a7b3a80-b470-428c-bbf6-44edb75615fe(statechart.generator.template.main@generator)" hash="eqaz0fze2sbyd3gh938ufbnannyw7c7" />
+  <common hash="-5z4u85jiknep08goyui74kutfhr7j94" />
+  <source id="2023328696140608703" hash="d9gsso7goiv9od81dkdwwl98iukz2kv">
+    <dep model="r:232915bf-7755-4eca-967d-f25f17e5f67e(statechart.structure)" />
     <dep model="r:8a7b3a80-b470-428c-bbf6-44edb75615fe(statechart.generator.template.main@generator)" />
     <file name="null.hs" />
   </source>

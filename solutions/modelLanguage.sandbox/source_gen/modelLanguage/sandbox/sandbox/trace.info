@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="2023328696140608703" modelId="r:796937df-46c6-435d-bdea-7304e72da6bf(modelLanguage.sandbox.sandbox)">
-    <scopeInfo nodeId="2023328696140608711" fileName="null.hs" startLine="10" startPosition="31" endLine="10" endPosition="31" />
-    <scopeInfo nodeId="2335781540869217408" fileName="null.hs" startLine="10" startPosition="34" endLine="10" endPosition="34" />
-    <scopeInfo nodeId="2023328696140917372" fileName="null.hs" startLine="11" startPosition="31" endLine="11" endPosition="31" />
-    <scopeInfo nodeId="2023328696140608720" fileName="null.hs" startLine="11" startPosition="34" endLine="11" endPosition="34" />
-    <scopeInfo nodeId="2023328696140608705" fileName="null.hs" startLine="4" startPosition="8" endLine="12" endPosition="1">
-      <varInfo nodeId="2023328696140608747" varName="closed" />
-      <varInfo nodeId="2023328696140608706" varName="idle" />
-      <varInfo nodeId="2023328696140608724" varName="receiving" />
-      <varInfo nodeId="2023328696140608728" varName="sending" />
-    </scopeInfo>
-  </root>
+  <root nodeRef="r:796937df-46c6-435d-bdea-7304e72da6bf(modelLanguage.sandbox.sandbox)/2023328696140608703" />
 </debugInfo>
 
