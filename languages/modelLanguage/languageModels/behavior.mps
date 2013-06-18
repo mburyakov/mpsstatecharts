@@ -1080,9 +1080,16 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.AssertStatement" typeId="tpee.1160998861373" id="1955678301119755075" nodeInfo="nn">
-          <node role="condition" roleId="tpee.1160998896846" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1955678301119755337" nodeInfo="nn">
-            <property name="value" nameId="tpee.1068580123138" value="false" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2999310141224284992" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2999310141224285461" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="todo: why assertion fails ?" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.CommentedStatement" typeId="tpee.1232461062092" id="2999310141224290032" nodeInfo="nn">
+          <node role="statement" roleId="tpee.1232461075566" type="tpee.AssertStatement" typeId="tpee.1160998861373" id="2999310141224289744" nodeInfo="nn">
+            <node role="condition" roleId="tpee.1160998896846" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="2999310141224289786" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580123138" value="false" />
+            </node>
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="2747754268221296757" nodeInfo="nn">
