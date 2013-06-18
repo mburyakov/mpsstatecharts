@@ -5,7 +5,7 @@ package smv.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class SymbolicConstant_BehaviorDescriptor extends UnspecifiedConcept_BehaviorDescriptor implements IValidIdentifier_BehaviorDescriptor, IConstant_BehaviorDescriptor {
+public class SymbolicConstant_BehaviorDescriptor extends Constant_BehaviorDescriptor implements IValidIdentifier_BehaviorDescriptor, IEnumerationTypeItem_BehaviorDescriptor {
   public SymbolicConstant_BehaviorDescriptor() {
   }
 

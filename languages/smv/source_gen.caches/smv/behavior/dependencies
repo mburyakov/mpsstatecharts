@@ -1,23 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="smv.behavior.AndExpression_Behavior" file="AndExpression_Behavior.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="smv.behavior.AndExpression_BehaviorDescriptor" file="AndExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="smv.behavior.AndExpression_Behavior" />
+    <classNode dependClassName="smv.behavior.BinaryOperation_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="smv.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="smv.behavior.AndExpression_BehaviorDescriptor" />
     <classNode dependClassName="smv.behavior.BooleanConstant_BehaviorDescriptor" />
     <classNode dependClassName="smv.behavior.BooleanType_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.CaseExpression_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.CaseItem_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.EnumerationType_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.EqExpression_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.InExpression_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.InitExpression_BehaviorDescriptor" />
     <classNode dependClassName="smv.behavior.IntegerConstant_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.NextExpression_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.NotExpression_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.ParenthesizedExpression_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.ReferenceExpression_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.SetExpression_BehaviorDescriptor" />
     <classNode dependClassName="smv.behavior.SymbolicConstant_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.UnionExpression_BehaviorDescriptor" />
     <classNode dependClassName="smv.behavior.UnspecifiedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.VariableDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.Word1Expression_BehaviorDescriptor" />
     <classNode dependClassName="smv.behavior.WordConstant_BehaviorDescriptor" />
     <classNode dependClassName="smv.behavior.WordType_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
+  <dependency className="smv.behavior.BinaryOperation_Behavior" file="BinaryOperation_Behavior.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="smv.behavior.BinaryOperation_BehaviorDescriptor" file="BinaryOperation_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="smv.behavior.BinaryOperation_Behavior" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="smv.behavior.BooleanConstant_BehaviorDescriptor" file="BooleanConstant_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.Constant_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="smv.behavior.BooleanType_BehaviorDescriptor" file="BooleanType_BehaviorDescriptor.java">
@@ -26,36 +67,170 @@
     <classNode dependClassName="smv.behavior.PrimitiveType_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="smv.behavior.IConstant_BehaviorDescriptor" file="IConstant_BehaviorDescriptor.java" />
-  <dependency className="smv.behavior.IIntegerLiteral_BehaviorDescriptor" file="IIntegerLiteral_BehaviorDescriptor.java" />
+  <dependency className="smv.behavior.CallLikeDoubleArgExpression_BehaviorDescriptor" file="CallLikeDoubleArgExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.CallLikeSingleArgExpression_BehaviorDescriptor" file="CallLikeSingleArgExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.CaseExpression_BehaviorDescriptor" file="CaseExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.CaseItem_BehaviorDescriptor" file="CaseItem_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.Constant_BehaviorDescriptor" file="Constant_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.Declaration_BehaviorDescriptor" file="Declaration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.EnumerationType_BehaviorDescriptor" file="EnumerationType_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.SimpleType_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.EqExpression_BehaviorDescriptor" file="EqExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.BinaryOperation_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.Expression_BehaviorDescriptor" file="Expression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.IEnumerationTypeItem_BehaviorDescriptor" file="IEnumerationTypeItem_BehaviorDescriptor.java" />
   <dependency className="smv.behavior.IValidIdentifier_BehaviorDescriptor" file="IValidIdentifier_BehaviorDescriptor.java">
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
   </dependency>
+  <dependency className="smv.behavior.InExpression_BehaviorDescriptor" file="InExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.BinaryOperation_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.InitExpression_BehaviorDescriptor" file="InitExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.UnaryExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="smv.behavior.IntegerConstant_BehaviorDescriptor" file="IntegerConstant_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="smv.behavior.IConstant_BehaviorDescriptor" />
-    <classNode dependClassName="smv.behavior.IIntegerLiteral_BehaviorDescriptor" />
-    <classNode dependClassName="smv.behavior.UnspecifiedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.Constant_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.IEnumerationTypeItem_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.NextExpression_BehaviorDescriptor" file="NextExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.UnaryExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.NotExpression_Behavior" file="NotExpression_Behavior.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="smv.behavior.NotExpression_BehaviorDescriptor" file="NotExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="smv.behavior.NotExpression_Behavior" />
+    <classNode dependClassName="smv.behavior.UnaryExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.ParenthesizedExpression_BehaviorDescriptor" file="ParenthesizedExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="smv.behavior.PrimitiveType_BehaviorDescriptor" file="PrimitiveType_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.SimpleType_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.ReferenceExpression_BehaviorDescriptor" file="ReferenceExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.SetExpression_BehaviorDescriptor" file="SetExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.SimpleType_BehaviorDescriptor" file="SimpleType_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Type_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="smv.behavior.SymbolicConstant_BehaviorDescriptor" file="SymbolicConstant_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="smv.behavior.IConstant_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="smv.behavior.Constant_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.IEnumerationTypeItem_BehaviorDescriptor" />
     <classNode dependClassName="smv.behavior.IValidIdentifier_BehaviorDescriptor" />
-    <classNode dependClassName="smv.behavior.UnspecifiedConcept_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.Type_BehaviorDescriptor" file="Type_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.UnaryExpression_Behavior" file="UnaryExpression_Behavior.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="smv.behavior.UnaryExpression_BehaviorDescriptor" file="UnaryExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="smv.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.UnaryExpression_Behavior" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.UnionExpression_BehaviorDescriptor" file="UnionExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.BinaryOperation_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="smv.behavior.UnspecifiedConcept_BehaviorDescriptor" file="UnspecifiedConcept_BehaviorDescriptor.java">
@@ -64,10 +239,22 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="smv.behavior.VariableDeclaration_BehaviorDescriptor" file="VariableDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.Declaration_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="smv.behavior.Word1Expression_BehaviorDescriptor" file="Word1Expression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="smv.behavior.BinaryOperation_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="smv.behavior.WordConstant_BehaviorDescriptor" file="WordConstant_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="smv.behavior.Constant_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="smv.behavior.WordType_BehaviorDescriptor" file="WordType_BehaviorDescriptor.java">

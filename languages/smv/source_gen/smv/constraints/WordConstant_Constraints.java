@@ -29,20 +29,53 @@ public class WordConstant_Constraints extends BaseConstraintsDescriptor {
       public boolean validateValue(SNode node, String propertyValue, IScope scope) {
         String propertyName = "representation";
         {
+          // todo: move to typesystem 
           boolean isValid = true;
           isValid = isValid && ConstraintUtil.wordConstantCheckRegexp((SPropertyOperations.getString(propertyValue)));
+          if (!(isValid)) {
+            return false;
+          }
           Integer l = ConstraintUtil.wordConstantLength((SPropertyOperations.getString(propertyValue)));
           isValid = isValid && !(l != null && l <= 0);
           isValid = isValid && !(ConstraintUtil.wordConstantIsDecimal((SPropertyOperations.getString(propertyValue))) && l == null);
+          if (!(isValid)) {
+            return false;
+          }
           String value = ConstraintUtil.wordConstantValue((SPropertyOperations.getString(propertyValue)));
+          int base;
           switch (ConstraintUtil.wordConstantBase((SPropertyOperations.getString(propertyValue)))) {
             case 'b':
-              isValid = isValid && value.matches("[]");
+              isValid = isValid && value.matches("[0-1]*");
+              base = 2;
+              break;
+            case 'o':
+              isValid = isValid && value.matches("[0-7]*");
+              base = 8;
+              break;
+            case 'd':
+              isValid = isValid && value.matches("[0-9]*");
+              base = 10;
+              break;
+            case 'h':
+              isValid = isValid && value.matches("[0-9a-f]*");
+              base = 16;
+              break;
             default:
-              return false;
+              throw new AssertionError("Error when checking WordConstant");
           }
-          // TODO: check base etc 
-          return isVali;
+          isValid = isValid && l <= 64;
+          if (!(isValid)) {
+            return false;
+          }
+          long iValue = Long.parseLong(value, base);
+          if (l != null) {
+            if (ConstraintUtil.wordConstantIsSigned((SPropertyOperations.getString(propertyValue))) && ConstraintUtil.wordConstantIsDecimal((SPropertyOperations.getString(propertyValue)))) {
+              isValid = isValid && iValue >= (1 >> l) - 1;
+            } else {
+              isValid = isValid && iValue >= 1 >> (l - 1);
+            }
+          }
+          return isValid;
         }
       }
     });

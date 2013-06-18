@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="awnzrwcfid8loc1ni8gdyx3ywnnspdo">
-  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-  <dep model="r:a153b074-cbb0-4b46-92ca-264bc737d9bd(smv.typesystem)" hash="adhpyqlettqp6bmjx24g81sq3f093j6" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+<dependencies version="2" modelHash="-b8w9pq59j55bstwpcb4odfbbp0jiquf">
+  <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:a153b074-cbb0-4b46-92ca-264bc737d9bd(smv.typesystem)" hash="6l4mc1aagukpqq07nby2z96ygi5yizo" />
+  <dep model="r:dc1ba95d-948c-4a3a-8c84-5be437d4c082(smv.editor)" hash="-dta49w6cqmvpynpusoe3hxya4mgkm6h" />
   <common>
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:a153b074-cbb0-4b46-92ca-264bc737d9bd(smv.typesystem)" />
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:dc1ba95d-948c-4a3a-8c84-5be437d4c082(smv.editor)" />
     <file name="Language.java" />
   </common>
 </dependencies>

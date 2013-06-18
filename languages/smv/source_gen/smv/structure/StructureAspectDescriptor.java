@@ -4,41 +4,87 @@ package smv.structure;
 
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
-import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
+import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"smv.structure.BooleanConstant", "smv.structure.BooleanType", "smv.structure.IConstant", "smv.structure.IIntegerLiteral", "smv.structure.IValidIdentifier", "smv.structure.IntegerConstant", "smv.structure.PrimitiveType", "smv.structure.SymbolicConstant", "smv.structure.UnspecifiedConcept", "smv.structure.WordConstant", "smv.structure.WordType"};
-
   public StructureAspectDescriptor() {
   }
 
   public ConceptDescriptor getDescriptor(String conceptFqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("smv.structure.BooleanConstant", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"value"}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.AndExpression").super_("smv.structure.BinaryOperation").parents("smv.structure.BinaryOperation").alias("&", "").create();
       case 1:
-        return new CompiledConceptDescriptor("smv.structure.BooleanType", "smv.structure.PrimitiveType", false, new String[]{"smv.structure.PrimitiveType"}, new String[]{}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.BinaryOperation").super_("smv.structure.Expression").parents("smv.structure.Expression").children(new String[]{"leftExpression", "rightExpression"}, new boolean[]{false, false}).abstract_().alias("<?>", "").create();
       case 2:
-        return new CompiledConceptDescriptor("smv.structure.IConstant", null, true, new String[]{}, new String[]{}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.BooleanConstant").super_("smv.structure.Constant").parents("smv.structure.Constant", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault").properties("value").alias("boolean constant", "").create();
       case 3:
-        return new CompiledConceptDescriptor("smv.structure.IIntegerLiteral", null, true, new String[]{}, new String[]{"value"}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.BooleanType").super_("smv.structure.PrimitiveType").parents("smv.structure.PrimitiveType").alias("boolean", "").create();
       case 4:
-        return new CompiledConceptDescriptor("smv.structure.IValidIdentifier", null, true, new String[]{"jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.CallLikeDoubleArgExpression").super_("smv.structure.Expression").parents("smv.structure.Expression").children(new String[]{"firstArgument", "secondArgument"}, new boolean[]{false, false}).abstract_().alias("<?>", "").create();
       case 5:
-        return new CompiledConceptDescriptor("smv.structure.IntegerConstant", "smv.structure.UnspecifiedConcept", false, new String[]{"smv.structure.UnspecifiedConcept", "smv.structure.IConstant", "smv.structure.IIntegerLiteral"}, new String[]{}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.CallLikeSingleArgExpression").super_("smv.structure.Expression").parents("smv.structure.Expression").children(new String[]{"argument"}, new boolean[]{false}).abstract_().alias("<?>", "").create();
       case 6:
-        return new CompiledConceptDescriptor("smv.structure.PrimitiveType", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.CaseExpression").super_("smv.structure.Expression").parents("smv.structure.Expression").children(new String[]{"items"}, new boolean[]{true}).alias("case", "").create();
       case 7:
-        return new CompiledConceptDescriptor("smv.structure.SymbolicConstant", "smv.structure.UnspecifiedConcept", false, new String[]{"smv.structure.UnspecifiedConcept", "smv.structure.IValidIdentifier", "smv.structure.IConstant"}, new String[]{}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.CaseItem").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"condition", "value"}, new boolean[]{false, false}).create();
       case 8:
-        return new CompiledConceptDescriptor("smv.structure.UnspecifiedConcept", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.Constant").super_("smv.structure.Expression").parents("smv.structure.Expression").abstract_().create();
       case 9:
-        return new CompiledConceptDescriptor("smv.structure.WordConstant", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"representation"}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.Declaration").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").abstract_().create();
       case 10:
-        return new CompiledConceptDescriptor("smv.structure.WordType", "smv.structure.PrimitiveType", false, new String[]{"smv.structure.PrimitiveType"}, new String[]{"isSigned"}, new String[]{});
+        return new ConceptDescriptorBuilder("smv.structure.EnumerationType").super_("smv.structure.SimpleType").parents("smv.structure.SimpleType").children(new String[]{"items"}, new boolean[]{true}).alias("{", "").create();
+      case 11:
+        return new ConceptDescriptorBuilder("smv.structure.EqExpression").super_("smv.structure.BinaryOperation").parents("smv.structure.BinaryOperation").alias("=", "").create();
+      case 12:
+        return new ConceptDescriptorBuilder("smv.structure.Expression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
+      case 13:
+        return new ConceptDescriptorBuilder("smv.structure.IEnumerationTypeItem").interface_().create();
+      case 14:
+        return new ConceptDescriptorBuilder("smv.structure.IValidIdentifier").interface_().parents("jetbrains.mps.lang.core.structure.INamedConcept").create();
+      case 15:
+        return new ConceptDescriptorBuilder("smv.structure.InExpression").super_("smv.structure.BinaryOperation").parents("smv.structure.BinaryOperation").alias("in", "").create();
+      case 16:
+        return new ConceptDescriptorBuilder("smv.structure.InitExpression").super_("smv.structure.UnaryExpression").parents("smv.structure.UnaryExpression").alias("init", "").create();
+      case 17:
+        return new ConceptDescriptorBuilder("smv.structure.IntegerConstant").super_("smv.structure.Constant").parents("smv.structure.Constant", "smv.structure.IEnumerationTypeItem").properties("value").create();
+      case 18:
+        return new ConceptDescriptorBuilder("smv.structure.NextExpression").super_("smv.structure.UnaryExpression").parents("smv.structure.UnaryExpression").alias("next", "").create();
+      case 19:
+        return new ConceptDescriptorBuilder("smv.structure.NotExpression").super_("smv.structure.UnaryExpression").parents("smv.structure.UnaryExpression").alias("!", "").create();
+      case 20:
+        return new ConceptDescriptorBuilder("smv.structure.ParenthesizedExpression").super_("smv.structure.Expression").parents("smv.structure.Expression").children(new String[]{"expression"}, new boolean[]{false}).alias("(expr)", "").create();
+      case 21:
+        return new ConceptDescriptorBuilder("smv.structure.PrimitiveType").super_("smv.structure.SimpleType").parents("smv.structure.SimpleType").abstract_().create();
+      case 22:
+        return new ConceptDescriptorBuilder("smv.structure.ReferenceExpression").super_("smv.structure.Expression").parents("smv.structure.Expression").references("declaration").create();
+      case 23:
+        return new ConceptDescriptorBuilder("smv.structure.SetExpression").super_("smv.structure.Expression").parents("smv.structure.Expression").children(new String[]{"items"}, new boolean[]{true}).alias("{", "").create();
+      case 24:
+        return new ConceptDescriptorBuilder("smv.structure.SimpleType").super_("smv.structure.Type").parents("smv.structure.Type").abstract_().create();
+      case 25:
+        return new ConceptDescriptorBuilder("smv.structure.SymbolicConstant").super_("smv.structure.Constant").parents("smv.structure.Constant", "smv.structure.IValidIdentifier", "smv.structure.IEnumerationTypeItem").create();
+      case 26:
+        return new ConceptDescriptorBuilder("smv.structure.Type").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
+      case 27:
+        return new ConceptDescriptorBuilder("smv.structure.UnaryExpression").super_("smv.structure.Expression").parents("smv.structure.Expression").children(new String[]{"expression"}, new boolean[]{false}).abstract_().alias("<?>", "").create();
+      case 28:
+        return new ConceptDescriptorBuilder("smv.structure.UnionExpression").super_("smv.structure.BinaryOperation").parents("smv.structure.BinaryOperation").alias("union", "").create();
+      case 29:
+        return new ConceptDescriptorBuilder("smv.structure.UnspecifiedConcept").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"children"}, new boolean[]{true}).create();
+      case 30:
+        return new ConceptDescriptorBuilder("smv.structure.VariableDeclaration").super_("smv.structure.Declaration").parents("smv.structure.Declaration").children(new String[]{"type"}, new boolean[]{false}).create();
+      case 31:
+        return new ConceptDescriptorBuilder("smv.structure.Word1Expression").super_("smv.structure.BinaryOperation").parents("smv.structure.BinaryOperation").alias("word1", "").create();
+      case 32:
+        return new ConceptDescriptorBuilder("smv.structure.WordConstant").super_("smv.structure.Constant").parents("smv.structure.Constant").properties("representation").create();
+      case 33:
+        return new ConceptDescriptorBuilder("smv.structure.WordType").super_("smv.structure.PrimitiveType").parents("smv.structure.PrimitiveType").properties("isSigned").children(new String[]{"length"}, new boolean[]{false}).alias("word", "").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
+
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"smv.structure.AndExpression", "smv.structure.BinaryOperation", "smv.structure.BooleanConstant", "smv.structure.BooleanType", "smv.structure.CallLikeDoubleArgExpression", "smv.structure.CallLikeSingleArgExpression", "smv.structure.CaseExpression", "smv.structure.CaseItem", "smv.structure.Constant", "smv.structure.Declaration", "smv.structure.EnumerationType", "smv.structure.EqExpression", "smv.structure.Expression", "smv.structure.IEnumerationTypeItem", "smv.structure.IValidIdentifier", "smv.structure.InExpression", "smv.structure.InitExpression", "smv.structure.IntegerConstant", "smv.structure.NextExpression", "smv.structure.NotExpression", "smv.structure.ParenthesizedExpression", "smv.structure.PrimitiveType", "smv.structure.ReferenceExpression", "smv.structure.SetExpression", "smv.structure.SimpleType", "smv.structure.SymbolicConstant", "smv.structure.Type", "smv.structure.UnaryExpression", "smv.structure.UnionExpression", "smv.structure.UnspecifiedConcept", "smv.structure.VariableDeclaration", "smv.structure.Word1Expression", "smv.structure.WordConstant", "smv.structure.WordType"};
 }

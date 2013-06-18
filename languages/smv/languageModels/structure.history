@@ -24,5 +24,11 @@
     </dependencies>
     <rename id="52mu.7906740086253319062" type="CONCEPT" from="IntegerLiteral" to="IntegerConstant" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="52mu" modelUID="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" version="3" />
+    </dependencies>
+    <rename id="52mu.2999310141224553225" type="CONCEPT" from="IPrimitiveTypeItem" to="IEnumerationTypeItem" />
+  </StructureModification>
 </history>
 

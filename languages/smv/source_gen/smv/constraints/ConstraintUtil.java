@@ -21,7 +21,7 @@ public class ConstraintUtil {
   }
 
   public static String wordConstantValue(String s) {
-    return s.replaceFirst(".*_", "").replaceAll("_", "");
+    return s.replaceFirst(".*_", "").replaceAll("_", "").toLowerCase();
   }
 
   public static Integer wordConstantLength(String s) {

@@ -7,29 +7,59 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"smv.structure.BooleanConstant", "smv.structure.BooleanType", "smv.structure.IntegerConstant", "smv.structure.SymbolicConstant", "smv.structure.UnspecifiedConcept", "smv.structure.WordConstant", "smv.structure.WordType"};
-
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
-      case 1:
-        return new BooleanType_BehaviorDescriptor();
-      case 6:
-        return new WordType_BehaviorDescriptor();
-      case 4:
-        return new UnspecifiedConcept_BehaviorDescriptor();
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
       case 2:
+        return new BooleanType_BehaviorDescriptor();
+      case 21:
+        return new WordType_BehaviorDescriptor();
+      case 17:
+        return new UnspecifiedConcept_BehaviorDescriptor();
+      case 9:
         return new IntegerConstant_BehaviorDescriptor();
-      case 3:
+      case 15:
         return new SymbolicConstant_BehaviorDescriptor();
-      case 0:
+      case 1:
         return new BooleanConstant_BehaviorDescriptor();
-      case 5:
+      case 20:
         return new WordConstant_BehaviorDescriptor();
+      case 12:
+        return new ParenthesizedExpression_BehaviorDescriptor();
+      case 0:
+        return new AndExpression_BehaviorDescriptor();
+      case 11:
+        return new NotExpression_BehaviorDescriptor();
+      case 19:
+        return new Word1Expression_BehaviorDescriptor();
+      case 5:
+        return new EnumerationType_BehaviorDescriptor();
+      case 18:
+        return new VariableDeclaration_BehaviorDescriptor();
+      case 13:
+        return new ReferenceExpression_BehaviorDescriptor();
+      case 14:
+        return new SetExpression_BehaviorDescriptor();
+      case 10:
+        return new NextExpression_BehaviorDescriptor();
+      case 16:
+        return new UnionExpression_BehaviorDescriptor();
+      case 7:
+        return new InExpression_BehaviorDescriptor();
+      case 6:
+        return new EqExpression_BehaviorDescriptor();
+      case 8:
+        return new InitExpression_BehaviorDescriptor();
+      case 4:
+        return new CaseItem_BehaviorDescriptor();
+      case 3:
+        return new CaseExpression_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
+
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"smv.structure.AndExpression", "smv.structure.BooleanConstant", "smv.structure.BooleanType", "smv.structure.CaseExpression", "smv.structure.CaseItem", "smv.structure.EnumerationType", "smv.structure.EqExpression", "smv.structure.InExpression", "smv.structure.InitExpression", "smv.structure.IntegerConstant", "smv.structure.NextExpression", "smv.structure.NotExpression", "smv.structure.ParenthesizedExpression", "smv.structure.ReferenceExpression", "smv.structure.SetExpression", "smv.structure.SymbolicConstant", "smv.structure.UnionExpression", "smv.structure.UnspecifiedConcept", "smv.structure.VariableDeclaration", "smv.structure.Word1Expression", "smv.structure.WordConstant", "smv.structure.WordType"};
 }

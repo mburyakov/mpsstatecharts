@@ -1,16 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="36" endPosition="0" unitName="smv.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="AndExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="smv.behavior.AndExpression_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="66" endPosition="0" unitName="smv.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BinaryOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="smv.behavior.BinaryOperation_BehaviorDescriptor" />
   <unitInfo fileName="BooleanConstant_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.BooleanConstant_BehaviorDescriptor" />
   <unitInfo fileName="BooleanType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.BooleanType_BehaviorDescriptor" />
-  <unitInfo fileName="IConstant_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="smv.behavior.IConstant_BehaviorDescriptor" />
-  <unitInfo fileName="IIntegerLiteral_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="smv.behavior.IIntegerLiteral_BehaviorDescriptor" />
+  <unitInfo fileName="CallLikeDoubleArgExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.CallLikeDoubleArgExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CallLikeSingleArgExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.CallLikeSingleArgExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CaseExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.CaseExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CaseItem_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.CaseItem_BehaviorDescriptor" />
+  <unitInfo fileName="Constant_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.Constant_BehaviorDescriptor" />
+  <unitInfo fileName="Declaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="smv.behavior.Declaration_BehaviorDescriptor" />
+  <unitInfo fileName="EnumerationType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.EnumerationType_BehaviorDescriptor" />
+  <unitInfo fileName="EqExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.EqExpression_BehaviorDescriptor" />
+  <unitInfo fileName="Expression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.Expression_BehaviorDescriptor" />
+  <unitInfo fileName="IEnumerationTypeItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="smv.behavior.IEnumerationTypeItem_BehaviorDescriptor" />
   <unitInfo fileName="IValidIdentifier_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="smv.behavior.IValidIdentifier_BehaviorDescriptor" />
+  <unitInfo fileName="InExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.InExpression_BehaviorDescriptor" />
+  <unitInfo fileName="InitExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.InitExpression_BehaviorDescriptor" />
   <unitInfo fileName="IntegerConstant_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.IntegerConstant_BehaviorDescriptor" />
-  <unitInfo fileName="PrimitiveType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.PrimitiveType_BehaviorDescriptor" />
+  <unitInfo fileName="NextExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.NextExpression_BehaviorDescriptor" />
+  <unitInfo fileName="NotExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="smv.behavior.NotExpression_BehaviorDescriptor" />
+  <unitInfo fileName="ParenthesizedExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.ParenthesizedExpression_BehaviorDescriptor" />
+  <unitInfo fileName="PrimitiveType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.PrimitiveType_BehaviorDescriptor" />
+  <unitInfo fileName="ReferenceExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.ReferenceExpression_BehaviorDescriptor" />
+  <unitInfo fileName="SetExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.SetExpression_BehaviorDescriptor" />
+  <unitInfo fileName="SimpleType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.SimpleType_BehaviorDescriptor" />
   <unitInfo fileName="SymbolicConstant_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="smv.behavior.SymbolicConstant_BehaviorDescriptor" />
+  <unitInfo fileName="Type_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.Type_BehaviorDescriptor" />
+  <unitInfo fileName="UnaryExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="smv.behavior.UnaryExpression_BehaviorDescriptor" />
+  <unitInfo fileName="UnionExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.UnionExpression_BehaviorDescriptor" />
   <unitInfo fileName="UnspecifiedConcept_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.UnspecifiedConcept_BehaviorDescriptor" />
-  <unitInfo fileName="WordConstant_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.WordConstant_BehaviorDescriptor" />
+  <unitInfo fileName="VariableDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.VariableDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="Word1Expression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.Word1Expression_BehaviorDescriptor" />
+  <unitInfo fileName="WordConstant_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.WordConstant_BehaviorDescriptor" />
   <unitInfo fileName="WordType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="smv.behavior.WordType_BehaviorDescriptor" />
+  <root nodeRef="r:db8b5ad3-2837-4743-a600-011f74fe7662(smv.behavior)/1955678301118834006">
+    <nodeInfo nodeId="1955678301118834002" fileName="BinaryOperation_Behavior.java" startLine="12" startPosition="91" endLine="13" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1955678301118834006" fileName="BinaryOperation_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1955678301118834006" fileName="BinaryOperation_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPriority_1955678301118834003#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)I" />
+    <scopeInfo nodeId="1955678301118834380" fileName="BinaryOperation_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1955678301118834005" fileName="BinaryOperation_Behavior.java" startLine="12" startPosition="91" endLine="13" endPosition="13" />
+    <scopeInfo nodeId="1955678301118834006" fileName="BinaryOperation_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
+      <varInfo nodeId="1955678301118834006" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1955678301118834006" fileName="BinaryOperation_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="1955678301118834006" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="1955678301118834006" fileName="BinaryOperation_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.BinaryOperation_Behavior" />
+  </root>
+  <root nodeRef="r:db8b5ad3-2837-4743-a600-011f74fe7662(smv.behavior)/1955678301118834389">
+    <nodeInfo nodeId="1955678301118834385" fileName="UnaryExpression_Behavior.java" startLine="12" startPosition="91" endLine="13" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1955678301118834389" fileName="UnaryExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1955678301118834389" fileName="UnaryExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPriority_1955678301118834386#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)I" />
+    <scopeInfo nodeId="1955678301118834391" fileName="UnaryExpression_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1955678301118834388" fileName="UnaryExpression_Behavior.java" startLine="12" startPosition="91" endLine="13" endPosition="13" />
+    <scopeInfo nodeId="1955678301118834389" fileName="UnaryExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
+      <varInfo nodeId="1955678301118834389" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1955678301118834389" fileName="UnaryExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="1955678301118834389" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="1955678301118834389" fileName="UnaryExpression_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.UnaryExpression_Behavior" />
+  </root>
+  <root nodeRef="r:db8b5ad3-2837-4743-a600-011f74fe7662(smv.behavior)/1955678301118834400">
+    <nodeInfo nodeId="1955678301118834399" fileName="NotExpression_Behavior.java" startLine="12" startPosition="91" endLine="13" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1955678301118834400" fileName="NotExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1955678301118834400" fileName="NotExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPriority_1955678301118834386#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)I" />
+    <scopeInfo nodeId="1955678301118834402" fileName="NotExpression_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1955678301118834397" fileName="NotExpression_Behavior.java" startLine="12" startPosition="91" endLine="13" endPosition="14" />
+    <scopeInfo nodeId="1955678301118834400" fileName="NotExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
+      <varInfo nodeId="1955678301118834400" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1955678301118834400" fileName="NotExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="1955678301118834400" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="1955678301118834400" fileName="NotExpression_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.NotExpression_Behavior" />
+  </root>
+  <root nodeRef="r:db8b5ad3-2837-4743-a600-011f74fe7662(smv.behavior)/1955678301118834409">
+    <nodeInfo nodeId="1955678301118834408" fileName="AndExpression_Behavior.java" startLine="12" startPosition="91" endLine="13" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1955678301118834409" fileName="AndExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1955678301118834409" fileName="AndExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPriority_1955678301118834003#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)I" />
+    <scopeInfo nodeId="1955678301118834411" fileName="AndExpression_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1955678301118834406" fileName="AndExpression_Behavior.java" startLine="12" startPosition="91" endLine="13" endPosition="15" />
+    <scopeInfo nodeId="1955678301118834409" fileName="AndExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
+      <varInfo nodeId="1955678301118834409" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1955678301118834409" fileName="AndExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="1955678301118834409" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="1955678301118834409" fileName="AndExpression_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="smv.behavior.AndExpression_Behavior" />
+  </root>
 </debugInfo>
 

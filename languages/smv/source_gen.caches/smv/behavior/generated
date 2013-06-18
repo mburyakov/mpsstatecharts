@@ -1,38 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="cbv5psekl3ohk1x0ta7dfu4ygn53erx">
+<dependencies version="2" modelHash="-23gmkayvjpwi3urfynlgy9daqlnsiwk">
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
-  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
-  <dep model="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" hash="-d40wsipatbhm6rl34dnt2h9hldjtvyw" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <dep model="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" hash="4b5zr6zcwwsds3qxls113qalgpgotus" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common dependsOnNodes="true">
+  <common hash="bkj7f10glc7mt7s87x7591weyg7vnd1" dependsOnNodes="true">
+    <dep root="1955678301118834006" />
+    <dep root="1955678301118834389" />
+    <dep root="1955678301118834400" />
+    <dep root="1955678301118834409" />
     <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" />
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="AndExpression_BehaviorDescriptor.java" />
     <file name="BehaviorAspectDescriptor.java" />
+    <file name="BinaryOperation_BehaviorDescriptor.java" />
     <file name="BooleanConstant_BehaviorDescriptor.java" />
     <file name="BooleanType_BehaviorDescriptor.java" />
-    <file name="IConstant_BehaviorDescriptor.java" />
-    <file name="IIntegerLiteral_BehaviorDescriptor.java" />
+    <file name="CallLikeDoubleArgExpression_BehaviorDescriptor.java" />
+    <file name="CallLikeSingleArgExpression_BehaviorDescriptor.java" />
+    <file name="CaseExpression_BehaviorDescriptor.java" />
+    <file name="CaseItem_BehaviorDescriptor.java" />
+    <file name="Constant_BehaviorDescriptor.java" />
+    <file name="Declaration_BehaviorDescriptor.java" />
+    <file name="EnumerationType_BehaviorDescriptor.java" />
+    <file name="EqExpression_BehaviorDescriptor.java" />
+    <file name="Expression_BehaviorDescriptor.java" />
+    <file name="IEnumerationTypeItem_BehaviorDescriptor.java" />
     <file name="IValidIdentifier_BehaviorDescriptor.java" />
+    <file name="InExpression_BehaviorDescriptor.java" />
+    <file name="InitExpression_BehaviorDescriptor.java" />
     <file name="IntegerConstant_BehaviorDescriptor.java" />
+    <file name="NextExpression_BehaviorDescriptor.java" />
+    <file name="NotExpression_BehaviorDescriptor.java" />
+    <file name="ParenthesizedExpression_BehaviorDescriptor.java" />
     <file name="PrimitiveType_BehaviorDescriptor.java" />
+    <file name="ReferenceExpression_BehaviorDescriptor.java" />
+    <file name="SetExpression_BehaviorDescriptor.java" />
+    <file name="SimpleType_BehaviorDescriptor.java" />
     <file name="SymbolicConstant_BehaviorDescriptor.java" />
+    <file name="Type_BehaviorDescriptor.java" />
+    <file name="UnaryExpression_BehaviorDescriptor.java" />
+    <file name="UnionExpression_BehaviorDescriptor.java" />
     <file name="UnspecifiedConcept_BehaviorDescriptor.java" />
+    <file name="VariableDeclaration_BehaviorDescriptor.java" />
+    <file name="Word1Expression_BehaviorDescriptor.java" />
     <file name="WordConstant_BehaviorDescriptor.java" />
     <file name="WordType_BehaviorDescriptor.java" />
   </common>
+  <source id="1955678301118834006" name="BinaryOperation_Behavior" hash="51y9plilyx8o3id84hj5u31skvunl14">
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" />
+    <file name="BinaryOperation_Behavior.java" />
+  </source>
+  <source id="1955678301118834389" name="UnaryExpression_Behavior" hash="-5gszahcuvfgpdfxljt5fijo23f8bjze">
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" />
+    <file name="UnaryExpression_Behavior.java" />
+  </source>
+  <source id="1955678301118834400" name="NotExpression_Behavior" hash="-9xyqtm2jtrobdqyieqo3q0ut9wft6c8">
+    <dep root="1955678301118834389" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" />
+    <file name="NotExpression_Behavior.java" />
+  </source>
+  <source id="1955678301118834409" name="AndExpression_Behavior" hash="6pwguk5gtibj4fd7at2rchjemueva4s">
+    <dep root="1955678301118834006" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:a4cbcf9c-13bb-484f-8f9d-12924cc8b1d7(smv.structure)" />
+    <file name="AndExpression_Behavior.java" />
+  </source>
 </dependencies>
 
